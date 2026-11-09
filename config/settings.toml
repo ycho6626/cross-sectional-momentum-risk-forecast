@@ -1,0 +1,247 @@
+# Settings of the completed research study. They equal the frozen settings in
+# config/frozen.toml except data_root, the one field the holdout guard exempts.
+# The tests need no downloads. The data commands read licensed Sharadar inputs
+# and a FRED key from .env, and every command writes under data_root, which is
+# relative to the directory the command runs from.
+
+[data]
+sharadar_tables = ["stocks", "tickers", "daily", "actions", "descriptions"]
+data_root = "data"
+sharadar_base_url = "https://api.sharadar.com/v1.0/data"
+fred_series = ["VIXCLS", "BAA10Y", "T10Y3M", "USREC"]
+sep_required_start = "1998-01-02"
+universe_start = "1998-12-01"
+
+[storage]
+memory_limit = "3GB"
+threads = 4
+compression = "zstd"
+
+[universe]
+n_universe = 1000
+min_price = 5.0
+categories = ["Domestic Common Stock", "Domestic Common Stock Primary Class"]
+min_daily_returns_252 = 230
+daily_window = 252
+marketcap_lookback_days = 5
+cap_repair = true
+cap_carry_forward_days = 252
+cap_observed_min_turnover = 0.00003
+cap_repair_min_turnover = 0.0005
+cap_repair_max_turnover = 0.10
+cap_turnover_window_days = 21
+cap_gate_dollar_volume_rank = 1000
+cap_gate_max_missing = 5
+rank1_max_dollar_volume_rank = 100
+top10_max_dollar_volume_rank = 1000
+blank_check_sic = 6770
+
+[signals]
+formation_months = 11
+res_window_months = 36
+res_min_months = 24
+
+[portfolios]
+primary = "tercile_capped_vw"
+cap_percentile = 0.80
+rebalance_lag_days = 1
+primary_bins = 3
+secondary_bins = 10
+initial_nav = 1.0
+
+[reconciliation]
+raw_monthly = 0.90
+res_monthly = 0.85
+raw_daily = 0.85
+raw_decile_monthly = 0.90
+minimum_explained = 0.80
+res_first_month = "2001-01-01"
+
+[reconciliation.explanations]
+res_monthly = "Full 36-month windows exclude the truncated 2000 formations. The 2001 start was adopted after the all-months correlation of 0.799 fell below the 0.80 floor. A later audit found no implementation error, but the gap is not fully explained."
+raw_decile_monthly = "French uses NYSE decile breakpoints over a broader universe. Published French D10−D1 and JKP ret_12_1 correlate at only 0.837."
+
+[report]
+worst_months = 10
+
+[delisting]
+performance_return = -0.30
+unexplained_return = 0.0
+match_window_days = 5
+election_choice = "cash"
+
+[flags]
+spike_abs_return = 0.50
+spike_net_two_day = 0.10
+
+[targets]
+horizon = 21
+lag = 1
+tail_quantile = 0.10
+
+[walkforward]
+feature_start = "2001-01-01"
+design_first_origin = "2005-12-31"
+design_last_origin = "2015-11-30"
+holdout_first_origin = "2015-12-31"
+refit = "first_trading_day_january"
+validation_months = 24
+gap_days = 22
+ridge_lambdas = [0.0, 0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1.0]
+logit_lambdas = [0.0001, 0.0003, 0.001, 0.003, 0.01, 0.03]
+logit_max_iter = 1000
+logit_tolerance = 0.00000001
+blas_threads = 1
+feature_clip_sd = 3.0
+blocks = ["HAR", "CORE", "M", "L2", "CM", "OT"]
+penalty_selection = "block_sequential"
+
+[amendment]
+# The block-sequential, training-clipped penalty design adopted before the
+# holdout; the tolerance applied to the original independent reference check.
+design = "block_sequential_clipped"
+reference_tolerance = 0.000001
+
+[holdout]
+mock_first_origin = "2012-12-31"
+mock_last_origin = "2015-11-30"
+
+[l2]
+correlation_days = 126
+leg_bins = 3
+bowley_quantiles = [0.25, 0.5, 0.75]
+moors_quantiles = [0.125, 0.375, 0.625, 0.875]
+quantile_method = "linear"
+placebo_k = 10
+heatmap_dpi = 140
+heatmap_size_inches = [12, 10]
+numerical_tolerance = 0.0000000001
+
+[h2]
+market_block = ["mkt_rv_126", "bear_24", "bear_x_var", "mkt_ret_36"]
+
+[ot]
+directions = 128
+grid_points = 101
+k_centroids = 4
+separation_splits = 20
+separation_ratio = 2.0
+seed = 20261007
+window_days = 126
+quantile_method = "linear"
+kmeans_n_init = 20
+kmeans_max_iter = 300
+kmeans_tolerance = 0.0001
+synthetic_n = 1000
+synthetic_shift = 0.2
+synthetic_noise_reps = 100
+tail_df = 3
+tail_reps = 100
+diagnostic_alpha = 0.05
+
+[hmm]
+states = 2
+secondary_states = 3
+restarts = 10
+pcs = 3
+seed = 20261007
+n_iter = 500
+tol = 0.0001
+min_covar = 0.001
+occupancy_min = 0.05
+startprob_prior = 1.0
+transmat_prior = 1.0
+means_prior = 0.0
+means_weight = 0.0
+covars_prior = 0.01
+covars_weight = 1.0
+synthetic_n = 300
+synthetic_dims = 3
+synthetic_persistence = 0.95
+synthetic_separation = 1.5
+synthetic_accuracy = 0.85
+
+[l3]
+series = ["RAW", "RES"]
+thin_last_origin = "2006-02-28"
+feature_warmup_start = "2000-12-01"
+
+[features]
+own_rv_days = [5, 21, 126]
+book_rv_days = 126
+beta_days = 126
+market_rv_days = 126
+bear_days = 504
+market_return_days = 756
+dispersion_days = 21
+illiquidity_days = 21
+momentum_gap_quantiles = [0.25, 0.75]
+comom_weeks = 52
+comom_deciles = 10
+illiquidity_dollar_scale = 1000000.0
+approximation_scale_days = 126
+approximation_shape_days = 252
+approximation_quantiles = [0.05, 0.5, 0.95]
+
+[bdp]
+seed = 20261007
+synthetic_n = 3000
+synthetic_nu = 8.0
+synthetic_loadings = [0.01, 0.001, 0.025]
+synthetic_initial = [0.0, 0.0, -0.1511404359364668]
+init_window = 252
+optimizer = "L-BFGS-B"
+optimizer_nu_starts = [5.0, 10.0]
+optimizer_loading_start = [0.02, 0.002, 0.02]
+loading_bounds = [0.000001, 0.30]
+nu_bounds = [3.05, 50.0]
+maxiter = 200
+maxfun = 1500
+ftol = 0.000000001
+gtol = 0.00001
+horizon_simulations = 4096
+nu_recovery_tolerance = 0.25
+path_recovery_correlation = 0.80
+
+[strategy]
+vol_target_annual = 0.12
+max_multiple = 2.0
+cost_bp = 10
+cost_grid_bp = [5, 20, 40]
+break_even_cost_grid_bp = [0, 5, 10, 20, 40, 80, 160, 200]
+cvar_alpha = 0.05
+dm_first_month = "1927-07-01"
+calibration_max_scale = 1000000.0
+calibration_min_scale = 0.00000001
+calibration_grid_points = 128
+calibration_tolerance = 0.00000001
+calibration_max_iterations = 80
+
+[evaluation]
+seed = 20261007
+confidence = 0.95
+bootstrap_reps = 5000
+block_months = 12
+nw_lags_monthly = 3
+nw_lags_daily = 21
+size_check_reps = 200
+size_check_max = 0.10
+size_check_blocks = [4, 10]
+size_check_baseline = "L1"
+size_check_alpha = 0.05
+size_check_series = ["RAW", "RES"]
+size_check_max_mean_r2 = 0.0
+
+[replication]
+variance_days = 126
+monthly_days = 21
+months_per_year = 12
+vol_target_annual = 0.12
+max_multiple = 2.0
+first_month = "1927-03-01"
+last_month = "2011-12-31"
+long_history_start = "1953-01-01"
+long_history_end = "2025-12-31"
+unscaled_sharpe = 0.53
+scaled_sharpe = 0.97
+sharpe_tolerance = 0.08

@@ -1,0 +1,5 @@
+comparison,series,construction,frequency,reference,sample_rule,holding_month_start,observations,first_date,last_date,correlation,required_correlation,minimum_explained,strict_pass,pass,status
+raw_monthly,RAW,tercile_capped_vw,monthly,jkp/ret_12_1_monthly,all_available,,324,1999-01-31,2025-12-31,0.9753381067259478,0.9,0.8,True,True,PASS
+res_monthly,RES,tercile_capped_vw,monthly,jkp/resff3_12_1_monthly,full_calendar_windows,2001-01-01,300,2001-01-31,2025-12-31,0.8157927645359572,0.85,0.8,False,True,EXPLAINED
+raw_daily,RAW,tercile_capped_vw,daily,jkp/ret_12_1_daily,all_available,,6791,1999-01-04,2025-12-31,0.9725644320815942,0.85,0.8,True,True,PASS
+raw_decile_monthly,RAW,decile_vw,monthly,french/momentum_deciles_monthly,all_available,,332,1999-01-31,2026-08-31,0.8644072888067492,0.9,0.8,False,True,EXPLAINED

@@ -1,0 +1,261 @@
+# Registered baseline (L1) models; suites only group these fixed specifications.
+
+[experiments.RAW_y1_L1_own]
+series = "RAW"
+target = "y1"
+feature_set = "L1-own"
+model = "ridge"
+
+[experiments.RAW_y1_L1_without_M]
+series = "RAW"
+target = "y1"
+feature_set = "L1_without_M"
+model = "ridge"
+
+[experiments.RAW_y1_L1]
+series = "RAW"
+target = "y1"
+feature_set = "L1"
+model = "ridge"
+
+[experiments.RAW_y1_L1m]
+series = "RAW"
+target = "y1"
+feature_set = "L1m"
+model = "ridge"
+
+[experiments.RAW_y2_L1_own]
+series = "RAW"
+target = "y2"
+feature_set = "L1-own"
+model = "ridge"
+
+[experiments.RAW_y2_L1_without_M]
+series = "RAW"
+target = "y2"
+feature_set = "L1_without_M"
+model = "ridge"
+
+[experiments.RAW_y2_L1]
+series = "RAW"
+target = "y2"
+feature_set = "L1"
+model = "ridge"
+
+[experiments.RAW_y2_L1m]
+series = "RAW"
+target = "y2"
+feature_set = "L1m"
+model = "ridge"
+
+[experiments.RAW_y3_L1_own]
+series = "RAW"
+target = "y3"
+feature_set = "L1-own"
+model = "logistic"
+
+[experiments.RAW_y3_L1_without_M]
+series = "RAW"
+target = "y3"
+feature_set = "L1_without_M"
+model = "logistic"
+
+[experiments.RAW_y3_L1]
+series = "RAW"
+target = "y3"
+feature_set = "L1"
+model = "logistic"
+
+[experiments.RAW_y3_L1m]
+series = "RAW"
+target = "y3"
+feature_set = "L1m"
+model = "logistic"
+
+[experiments.RAW_c_y1_L1_own]
+series = "RAW_c"
+target = "y1"
+feature_set = "L1-own"
+model = "ridge"
+
+[experiments.RAW_c_y1_L1_without_M]
+series = "RAW_c"
+target = "y1"
+feature_set = "L1_without_M"
+model = "ridge"
+
+[experiments.RAW_c_y1_L1]
+series = "RAW_c"
+target = "y1"
+feature_set = "L1"
+model = "ridge"
+
+[experiments.RAW_c_y1_L1m]
+series = "RAW_c"
+target = "y1"
+feature_set = "L1m"
+model = "ridge"
+
+[experiments.RAW_c_y2_L1_own]
+series = "RAW_c"
+target = "y2"
+feature_set = "L1-own"
+model = "ridge"
+
+[experiments.RAW_c_y2_L1_without_M]
+series = "RAW_c"
+target = "y2"
+feature_set = "L1_without_M"
+model = "ridge"
+
+[experiments.RAW_c_y2_L1]
+series = "RAW_c"
+target = "y2"
+feature_set = "L1"
+model = "ridge"
+
+[experiments.RAW_c_y2_L1m]
+series = "RAW_c"
+target = "y2"
+feature_set = "L1m"
+model = "ridge"
+
+[experiments.RAW_c_y3_L1_own]
+series = "RAW_c"
+target = "y3"
+feature_set = "L1-own"
+model = "logistic"
+
+[experiments.RAW_c_y3_L1_without_M]
+series = "RAW_c"
+target = "y3"
+feature_set = "L1_without_M"
+model = "logistic"
+
+[experiments.RAW_c_y3_L1]
+series = "RAW_c"
+target = "y3"
+feature_set = "L1"
+model = "logistic"
+
+[experiments.RAW_c_y3_L1m]
+series = "RAW_c"
+target = "y3"
+feature_set = "L1m"
+model = "logistic"
+
+[experiments.RES_y1_L1_own]
+series = "RES"
+target = "y1"
+feature_set = "L1-own"
+model = "ridge"
+
+[experiments.RES_y1_L1_without_M]
+series = "RES"
+target = "y1"
+feature_set = "L1_without_M"
+model = "ridge"
+
+[experiments.RES_y1_L1]
+series = "RES"
+target = "y1"
+feature_set = "L1"
+model = "ridge"
+
+[experiments.RES_y1_L1m]
+series = "RES"
+target = "y1"
+feature_set = "L1m"
+model = "ridge"
+
+[experiments.RES_y2_L1_own]
+series = "RES"
+target = "y2"
+feature_set = "L1-own"
+model = "ridge"
+
+[experiments.RES_y2_L1_without_M]
+series = "RES"
+target = "y2"
+feature_set = "L1_without_M"
+model = "ridge"
+
+[experiments.RES_y2_L1]
+series = "RES"
+target = "y2"
+feature_set = "L1"
+model = "ridge"
+
+[experiments.RES_y2_L1m]
+series = "RES"
+target = "y2"
+feature_set = "L1m"
+model = "ridge"
+
+[experiments.RES_y3_L1_own]
+series = "RES"
+target = "y3"
+feature_set = "L1-own"
+model = "logistic"
+
+[experiments.RES_y3_L1_without_M]
+series = "RES"
+target = "y3"
+feature_set = "L1_without_M"
+model = "logistic"
+
+[experiments.RES_y3_L1]
+series = "RES"
+target = "y3"
+feature_set = "L1"
+model = "logistic"
+
+[experiments.RES_y3_L1m]
+series = "RES"
+target = "y3"
+feature_set = "L1m"
+model = "logistic"
+
+[suites]
+thin = ["RAW_y1_L1_own", "RAW_y1_L1"]
+baseline = [
+    "RAW_y1_L1_own",
+    "RAW_y1_L1_without_M",
+    "RAW_y1_L1",
+    "RAW_y1_L1m",
+    "RAW_y2_L1_own",
+    "RAW_y2_L1_without_M",
+    "RAW_y2_L1",
+    "RAW_y2_L1m",
+    "RAW_y3_L1_own",
+    "RAW_y3_L1_without_M",
+    "RAW_y3_L1",
+    "RAW_y3_L1m",
+    "RAW_c_y1_L1_own",
+    "RAW_c_y1_L1_without_M",
+    "RAW_c_y1_L1",
+    "RAW_c_y1_L1m",
+    "RAW_c_y2_L1_own",
+    "RAW_c_y2_L1_without_M",
+    "RAW_c_y2_L1",
+    "RAW_c_y2_L1m",
+    "RAW_c_y3_L1_own",
+    "RAW_c_y3_L1_without_M",
+    "RAW_c_y3_L1",
+    "RAW_c_y3_L1m",
+    "RES_y1_L1_own",
+    "RES_y1_L1_without_M",
+    "RES_y1_L1",
+    "RES_y1_L1m",
+    "RES_y2_L1_own",
+    "RES_y2_L1_without_M",
+    "RES_y2_L1",
+    "RES_y2_L1m",
+    "RES_y3_L1_own",
+    "RES_y3_L1_without_M",
+    "RES_y3_L1",
+    "RES_y3_L1m",
+]
+
+[samples.thin]
+through = "2006-02-28"

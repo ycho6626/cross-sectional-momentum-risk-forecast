@@ -1,0 +1,8 @@
+cap_source,status,stock_months,stocks,median_implied_turnover_pct,max_implied_turnover_pct
+backfilled,accepted,2247,160,0.23277265328269128,9.934451909530722
+backfilled,turnover_above_limit,20,2,57.738967226213475,224.2250454417527
+backfilled,turnover_below_limit,2003,124,0.006576478013885968,0.04997261271064318
+carried_forward,accepted,222,30,0.27406444213855785,2.6254237986100497
+carried_forward,turnover_above_limit,2,2,16203.168982921874,32375.977965843747
+carried_forward,turnover_below_limit,398,42,0.0014432740399228103,0.0498274690917082
+none,no_daily_cap,4160,79,,

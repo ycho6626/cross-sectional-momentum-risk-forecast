@@ -1,0 +1,5 @@
+series,k,replications,identical_forecasts,failed_replications,cw_undefined,cw_rejection_rate,cw_descriptive,dm_undefined,dm_rejection_rate,dm_descriptive,r2_undefined,mean_r2,median_r2,positive_r2_share,refits,placebo_excluded_refits,placebo_excluded_refit_share,complete,bias_exceeded,bias_passed
+RAW,4,200,1,0,0,0.075,False,0,0.04,False,0,-0.023833113270786795,-0.01292319791519081,0.235,2200,1463,0.665,True,False,True
+RAW,10,200,10,0,0,0.03,False,0,0.045,False,0,-0.03453151421610641,-0.016526930561324038,0.18,2200,1702,0.7736363636363637,True,False,True
+RES,4,200,1,0,0,0.085,False,0,0.105,True,0,-0.030702734177372317,-0.014893292911913103,0.28,2200,1474,0.67,True,False,True
+RES,10,200,6,0,0,0.055,False,0,0.095,False,0,-0.055283543767537496,-0.02323671336460975,0.195,2200,1605,0.7295454545454545,True,False,True

@@ -1,0 +1,6 @@
+criterion,passed,value
+synthetic_recovery,true,
+first_french_fit,true,
+nu_relative_error,,0.1316213116352647
+scale_correlation,,0.9998322237277812
+shape_correlation,,0.9997770438339837

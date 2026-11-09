@@ -1,0 +1,59 @@
+{
+  "data_manifest_sha256": "776526b05ddbc842068e8970f49494e80a7763a5e69bba79d2abd9d1987b1687",
+  "data_vintages": {
+    "fred/BAA10Y": "FRED realtime 2026-10-06 to 2026-10-06",
+    "fred/T10Y3M": "FRED realtime 2026-10-06 to 2026-10-06",
+    "fred/USREC": "FRED realtime 2026-10-03 to 2026-10-03",
+    "fred/VIXCLS": "FRED realtime 2026-10-06 to 2026-10-06",
+    "french/ff3_daily": "This file was created by using the 202608 CRSP database.",
+    "french/ff3_monthly": "This file was created using the 202608 CRSP database.",
+    "french/momentum_breakpoints": "This file was created using the 202608 CRSP database.  It contains every fifth NYSE prior return percentile for each month.",
+    "french/momentum_daily": "This file was created by using the 202608 CRSP database.  It",
+    "french/momentum_deciles_daily": "This file was created using the 202608 CRSP database.",
+    "french/momentum_deciles_monthly": "This file was created using the 202608 CRSP database.",
+    "french/momentum_monthly": "This file was created using the 202608 CRSP database.  It",
+    "jkp/resff3_12_1_daily": "Tue, 04 Aug 2026 05:30:16 GMT; observations through 2025-12-31",
+    "jkp/resff3_12_1_monthly": "Tue, 04 Aug 2026 05:30:16 GMT; observations through 2025-12-31",
+    "jkp/ret_12_1_daily": "Tue, 04 Aug 2026 05:30:16 GMT; observations through 2025-12-31",
+    "jkp/ret_12_1_monthly": "Tue, 04 Aug 2026 05:30:16 GMT; observations through 2025-12-31",
+    "sharadar/actions": "Tue, 06 Oct 2026 08:30:39 GMT",
+    "sharadar/daily": "Tue, 06 Oct 2026 11:23:49 GMT",
+    "sharadar/descriptions": "Sun, 04 Oct 2026 11:28:06 GMT",
+    "sharadar/stocks": "Tue, 06 Oct 2026 12:42:02 GMT",
+    "sharadar/tickers": "Tue, 06 Oct 2026 08:30:37 GMT"
+  },
+  "full_study_validation": {
+    "passed": 490,
+    "seconds": 1295.34,
+    "warning_class": "Existing hmmlearn/NumPy array-shape DeprecationWarning",
+    "warnings": 1062
+  },
+  "holdout_artifact_sha256": "a69991a6e1a5e8cbb483e9c775d54127993c11c665c20729e5445a6bdfa8fbe1",
+  "reproduction": {
+    "bootstraps_recomputed": true,
+    "design_artifacts": 25,
+    "elapsed_seconds": 3636.3070010690717,
+    "exact_reproduction": true,
+    "excluded": [
+      "downloads",
+      "robustness grid"
+    ],
+    "fixed_audit_inputs": [
+      "registered size check",
+      "synthetic/separation diagnostics",
+      "historical DSR population and earlier strategy experiments"
+    ],
+    "holdout_artifacts": 25,
+    "portfolio_artifacts": 37
+  },
+  "research_attempts": {
+    "duplicate_run_ids": 0,
+    "statuses": {
+      "completed": 3494,
+      "failed": 6
+    },
+    "total": 3500
+  },
+  "scope": "Historical validation of the full licensed-data study; not a public rerun",
+  "settings_sha256": "6a2c5cd6d138828338e24cabd56e666e604df92cb3a170c5ce5e640b5a603423"
+}

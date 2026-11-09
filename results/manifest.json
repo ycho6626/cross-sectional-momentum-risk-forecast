@@ -1,0 +1,240 @@
+{
+  "artifacts": [
+    {
+      "kind": "aggregate_table",
+      "path": "results/forecast_results.csv",
+      "rows": 24,
+      "sha256": "d22ba9908ea1a2dd1b36db586b137d19c214872b63d10b919a529ba43def7b85"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/strategy_results.csv",
+      "rows": 32,
+      "sha256": "90a1b8f3c9b26b83b6f1642f6fab43fd36de711d7de122d6ddb10db18d79875c"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/primary_hypothesis.csv",
+      "rows": 2,
+      "sha256": "629b59a2aa4e48eda525205c035b1c8d06b5a74711a81dc16692e072b8ffa44e"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/market_state_contrast.csv",
+      "rows": 4,
+      "sha256": "ce3dcbbca6308ee12ea701216d56afecca1e03b45ab5d7d89b1b5b25e8fd7987"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/transport_comparison.csv",
+      "rows": 2,
+      "sha256": "afab71a681e3858625b1203647e778ee7de1bda788bba4b9f7319cae8ceebf5b"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/quadratic_control.csv",
+      "rows": 2,
+      "sha256": "3fca667c4bb02f49b5d656abbd95900e027a9d681a129cf210888103c496427a"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/state_features.csv",
+      "rows": 4,
+      "sha256": "3c9f68601cfb5f6a107822fcb7dee0a2d9a750f8b4ef092270ce7c0c8cb68e6b"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/state_persistence.csv",
+      "rows": 4,
+      "sha256": "e8a137394d6f0cc071dbb9d458596858616330672f4eaba518ffcf034b35b79d"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/placebo_audit.csv",
+      "rows": 4,
+      "sha256": "cf770d2d7f971f35a9134c03c12e62563ec4cedfdb0e7e076bc53ab51fe66e3c"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/robustness.csv",
+      "rows": 7,
+      "sha256": "ac6d4789e1c3b3a2f9e067055f9eeae9805d3e1144d5951f32a022f51b2316b6"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/cost_sensitivity.csv",
+      "rows": 63,
+      "sha256": "fef7744604608b4e7d4ca426e321e007470fc7bd60382125ceb40fde99329bb0"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/registered_forecasts_superseded.csv",
+      "rows": 36,
+      "sha256": "2a57f393bc88dce49fb6c410ace4ab46f8e0392f0df502556ea74a72a7b85b05"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/registered_strategies_superseded.csv",
+      "rows": 30,
+      "sha256": "a3fa1873ddf9270d22392c232dda702016f11a15c0b9ae8e7e12fe04bf1b28f3"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/registered_placebos_superseded.csv",
+      "rows": 2,
+      "sha256": "dc1b75973f6cb3415d2bd940373c8456fdc8ba2649e9a7915fdb0a6482e7bb06"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/baseline_forecasts.csv",
+      "rows": 36,
+      "sha256": "e8ab2eae6d6d81e792c8c47691fb5529863c58234de3d268136411c6eb1b5233"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/sharpe_differences.csv",
+      "rows": 36,
+      "sha256": "4f5ddda26802f63c2ea26806bd818c87ccc1174d5a57b39b67a4cb524d435c10"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/data_checks.csv",
+      "rows": 38,
+      "sha256": "551307e97677b4bba1af832fdce8df96101108dfcdef67bbadef4ff3d2898e9b"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/data_availability.csv",
+      "rows": 20,
+      "sha256": "1c817c207fdccc23f428575400752f84836f68c4a0668268270dfdd27d2722ab"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/price_integrity_by_year.csv",
+      "rows": 30,
+      "sha256": "c1c16a3e6d96c03eb237bedec0a5f30e9548061bbc3c775d87b8167e6d5a9bff"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/security_mapping.csv",
+      "rows": 89,
+      "sha256": "487ff0e0133b674df91c81da44cdd33d70654218da3b2e798881417753332a22"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/data_coverage_by_year.csv",
+      "rows": 30,
+      "sha256": "73819da698a4f8ea9cba9e5ab66658c9d83ac646ce819b68c09efe68343a2055"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/universe_by_month.csv",
+      "rows": 333,
+      "sha256": "2583d13070a1983597a77fbb2e000c746cc1097ec38dad28365ed98b150d914a"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/sic_by_year.csv",
+      "rows": 29,
+      "sha256": "9a449a33d3a35ea07fe519bc3f8acd31bd7ec357a0efd6e08d90585684d8e170"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/cap_coverage_by_year.csv",
+      "rows": 29,
+      "sha256": "34072ad206d01670ca61ae19a23c022922c9d6c5985a933c4f7403dda9b44913"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/cap_repair_status.csv",
+      "rows": 7,
+      "sha256": "e12290cc5acfcfba7da6767fa9219d7e960df6adc231f625679a5f4ecf7923d7"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/delisting_value.csv",
+      "rows": 6,
+      "sha256": "f2d51611634a0c4c2d40e1fea49de16ac6dfa466e82f5a568c449504041347a0"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/data_flags.csv",
+      "rows": 3,
+      "sha256": "276f6669f9dcfb67824265000ca845777b9f3b854c14049fd7c93d0398aedd5c"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/reconciliation.csv",
+      "rows": 4,
+      "sha256": "c85373cfcafd2d70dc3958f3d99a37b847d67505ea0c91f4917625ecd62d8780"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/reconciliation_all_months.csv",
+      "rows": 1,
+      "sha256": "45d31a3745a93e3be03a40d469415489ad36307b7c847223fe8ac2d7733314b0"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/bsc_replication.csv",
+      "rows": 2,
+      "sha256": "337e75ac9fd9db8aaf0b1193633c791873bdf40334fa169d7ab4c3974cd87cfa"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/momentum_book_summary.csv",
+      "rows": 5,
+      "sha256": "5f8d7b6470dd0cbd08f7841077797a065a3663614e71c9743d5ae7e4eb2bdb0b"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/long_history_summary.csv",
+      "rows": 2,
+      "sha256": "44bede3de1692f46d0f77ac577b53607e06f6755322efc0b78dbbcb7068ee925"
+    },
+    {
+      "kind": "aggregate_table",
+      "path": "results/bdp_recovery.csv",
+      "rows": 5,
+      "sha256": "76a84a1d750bbaaeb9fe02bf858b1bf560e0117bb49e2571e2a100a5e4f4923c"
+    },
+    {
+      "kind": "trial_log_summary",
+      "path": "results/research_attempts.csv",
+      "rows": 10,
+      "sha256": "5d717d9d41369f3cb814f9c98e7f78796a03bf812f52dd56817b33b80ce9ecd4"
+    },
+    {
+      "kind": "aggregate_figure",
+      "path": "figures/momentum_books.png",
+      "sha256": "0b398ab4077f1fe9ec62e423db3e6db1dd2c40f077645df04e5a560a97c41f2c"
+    },
+    {
+      "kind": "aggregate_figure",
+      "path": "figures/feature_redundancy.png",
+      "sha256": "39fe75fead575dfed72ef93c134edb93ec876091de94cb8130fa26a360cd2a3e"
+    },
+    {
+      "kind": "aggregate_figure",
+      "path": "figures/state_timeline.png",
+      "sha256": "80ce3cf0c0640eeefc13fc4ed3b3a4a5fdcd51a6a59f1b3332a68d910bf984aa"
+    },
+    {
+      "kind": "aggregate_figure",
+      "path": "figures/forecast_loss.png",
+      "sha256": "9f5e8f5556b3823364abe1e280d66b9632d745e7fbe284bb7be9b1522ce1c9b4"
+    },
+    {
+      "kind": "aggregate_figure",
+      "path": "figures/net_equity.png",
+      "sha256": "6bbdadad6e772e3cdb6847de18a9d3513cd1a41161f3957d716ef19a3db31e12"
+    },
+    {
+      "kind": "historical_validation_receipt",
+      "path": "results/study_receipt.json",
+      "sha256": "2d4a65707fb4cd742216917b9b0afbaf9dcbc46ba6031e847d648279b2f2c270"
+    }
+  ],
+  "schema_version": 1,
+  "scope": "Recorded aggregate evidence; no security-level data"
+}

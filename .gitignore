@@ -1,0 +1,40 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.pytest_tmp/
+.ruff_cache/
+.mypy_cache/
+.hypothesis/
+.DS_Store
+.vscode/
+.idea/
+
+# Source datasets and local research artifacts are never distributed.
+data/
+raw/
+curated/
+*.parquet
+*.duckdb
+*.duckdb.wal
+*.zip
+*.gz
+
+# The local experiment log every logged run appends to.
+/docs/TRIALS.csv
+
+# Tables, sidecars and figures written by the pipeline commands.
+/results/tables/
+/results/figures/
+
+# Locally generated example output.
+demo-output/
+
+# Instructional outputs are separate from research evidence.
+/examples/output/

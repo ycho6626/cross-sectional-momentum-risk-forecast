@@ -1,0 +1,18 @@
+# Research history
+
+This is a retrospective chronology of an **internally frozen historical study**, not an independently timestamped public preregistration. The first public repository publication followed the completed research on **2026-10-25**. Publishing internal records later does not establish that the protocol was publicly available before the results were known.
+
+Dates below are Korea Standard Time (UTC+09:00), taken from internal document headings, Git metadata and execution logs. The attempt summary records UTC, so its dates can fall a day earlier. These internal records are author-controlled.
+
+| Recorded date | Event and supporting evidence |
+|---|---|
+| **2026-10-07** | **Initial protocol.** Commit `18b0d900` fixed the question, hypotheses, primary loss, sample split and inference rules. The current [research design](research_design.md) and [methodology](../METHODOLOGY.md) explain the resulting design retrospectively. |
+| **2026-10-07–08** | **Regularization amendment.** Commit `c4fee3cf` recorded the amendment on October 7 after noise predictors exposed a shared-penalty flaw. Sequential block penalties, exact exclusion and clipping replaced it. It was accepted on October 8 after reference checks and 800 placebo replications. [Original placebo audit](../results/registered_placebos_superseded.csv), [superseded forecasts](../results/registered_forecasts_superseded.csv), [amended audit](../results/placebo_audit.csv). |
+| **2026-10-08** | **Model freeze.** The source snapshot `0f968672` was committed, approved and tagged. It fixed settings, the data manifest and model choices: RAW=L1+L2+CM; RES=L1. A preceding construction-cutoff correction removed unused future pairs and reproduced the same numerical results. [Design/holdout model comparisons](../results/forecast_results.csv). |
+| **2026-10-08** | **Holdout execution and exact rerun.** The holdout ran after the tag and was then rerun; all 25 numerical artifacts matched. None of the 511 holdout-period attempts in the experiment log started before the tag ([attempt summary](../results/research_attempts.csv)). The 127-origin [primary result](../results/primary_hypothesis.csv) did not pass its 5% rule. The [study receipt](../results/study_receipt.json) preserves the combined holdout digest. |
+| **2026-10-08** | **Final raw-to-results reproduction.** Curation, portfolios, features, fits and bootstraps were rebuilt in about an hour; 25 design, 25 holdout and 37 portfolio hashes matched. An earlier attempt had stopped on CSV column order; a complete corrected rebuild followed. The final review followed the same day. [Receipt](../results/study_receipt.json) and [scope](reproducibility.md). |
+| **2026-10-25** | **Public edition.** The repository was created after the research, as [GitHub metadata](https://api.github.com/repos/ycho6626/cross-sectional-momentum-risk-forecast) records. The Git history is a single commit, so its date is later than first publication. Neither date is an advance public registration. |
+
+The internal commit identifiers identify retained snapshots; they do not independently authenticate when those records existed. “Pre-specified” here means recorded internally before holdout evaluation. The study uses final-vintage historical inputs and follows full-sample data-quality review, rather than prospective live observation.
+
+Prescribed sensitivities did not revise the headline. Later concentration checks describe saved losses without refitting and are not new registered tests. Neither the chronology nor exact numerical reproduction removes the [data-timing and generalization limitations](research_design.md).

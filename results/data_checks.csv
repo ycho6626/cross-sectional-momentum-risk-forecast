@@ -1,0 +1,39 @@
+check,pass,value,criterion
+raw_snapshots,True,20,All required sources have verified SHA-256 and vintage
+repository_data_exclusion,True,0 tracked data/secret files; 3/3 ignore probes,No tracked licensed data or .env; ignore rules cover stray data
+sep_full_history,True,1997-12-31,First SEP date <= 1998-01-02
+prices_duplicate_rows,True,0,0 rows
+prices_missing_keys,True,0,0 rows
+prices_wrong_partition_rows,True,0,0 rows
+caps_duplicate_rows,True,0,0 rows
+caps_missing_keys,True,0,0 rows
+caps_wrong_partition_rows,True,0,0 rows
+invalid_prices,True,0,"0 null, non-finite or non-positive prices"
+master_keys,True,0 duplicate; 0 missing,"Unique, non-null (permaticker, date)"
+actions_keys,True,0 duplicate; 0 missing,"Unique, non-null (permaticker, date)"
+monthly_returns_keys,True,0 duplicate; 0 missing,"Unique, non-null (permaticker, date)"
+pit_sic_keys,True,0 duplicate; 0 missing,"Unique, non-null (permaticker, date)"
+universe_keys,True,0 duplicate; 0 missing,"Unique, non-null (permaticker, date)"
+cap_repairs_keys,True,0 duplicate; 0 missing,"Unique, non-null (permaticker, date)"
+cap_repair_exceptions_keys,True,0 duplicate; 0 missing,"Unique, non-null (permaticker, date)"
+observed_cap_exceptions_keys,True,0 duplicate; 0 missing,"Unique, non-null (permaticker, date)"
+universe_month_ends,True,0 missing; 0 extra,Every expected month-end
+universe_sizes,True,333 month-ends; 0 documented shortfalls,Configured size or recorded shortfall
+high_dollar_volume_cap_gate,True,4,At most 5 top-1000 dollar-volume candidates lack caps/month
+cap_repair_terms,True,0,"0 invalid repair sources, anchor dates, guards or exceptions"
+cap_repair_arithmetic,True,0,0 cap-ratio or turnover-unit mismatches
+cap_repair_exception_table,True,0,Every rejected repair is retained once outside git
+selected_cap_repairs,True,0,Selected repaired caps match accepted pinned rows
+cap_repair_monthly_audit,True,0,"Monthly coverage, repaired counts and value shares reconcile"
+observed_cap_exception_terms,True,0 invalid reasons; 0 turnover-unit mismatches,Observed exceptions match the 0.003% daily turnover floor
+unusable_observed_caps_excluded,True,0 universe members; 0 repair attempts,Unusable observed caps are excluded and never repaired
+universe_cap_ranks,True,0 invalid cap ranks; 0 invalid dollar-volume ranks; 0 invalid months,Finite positive caps in rank order and valid dollar-volume ranks
+rank1_dollar_volume_rank,True,31,Largest member's dollar-volume rank <= 100 each month
+top10_dollar_volume_rank,True,492,Every top-10 member's dollar-volume rank <= 1000 each month
+universe_audit_matches_members,True,0,0 mismatching month-ends
+point_in_time_sic,True,6946870/6992667 known SIC observations,SIC table and annual action-coverage audit exist
+delisting_classes,True,0,0 unclassified uncensored endings
+delisting_exceptions,True,301,301 classified exceptions retained outside git
+price_corrections,True,0,Every correction has independent evidence
+data_flags,True,6,Universe flag rows reported diagnostically; no price rewriting
+permanent_id_price_mapping,True,0,0 price rows without an unambiguous SEP permanent ID

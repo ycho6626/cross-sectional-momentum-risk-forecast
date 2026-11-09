@@ -1,0 +1,2988 @@
+{
+  "artifacts": [
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "6e59c22412d73936b57e9d553fa17ac922837af7ff0c3d92e5df600b18d95734",
+      "original_source_sha256": "f43aaf48fc3581f1db85118026fa67c92ef5f29c599f052d4bc1ff5868d4b3c3",
+      "path": "src/momenta/accounting.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "d1df1730e61d5dba4ea1d1b58804b0d9c06a726d16181dfe68fb09c38ce600fe",
+          "name": "AcademicStep"
+        },
+        {
+          "executable_ast_sha256": "5c9e1237a5bc38a74d82fcbfda9bc6f78d9ca6e14e5ff9a221b422958b4e5ea8",
+          "name": "BookStep"
+        },
+        {
+          "executable_ast_sha256": "fe7103b4f8715477c8b8029d057947028cf0af50d294d5fe130086c66c7d6905",
+          "name": "RebalanceStep"
+        },
+        {
+          "executable_ast_sha256": "7c5d77cae161fdc05787ee2c30c7ffb8b2016a2c61f4340f4dd2c871f94ab879",
+          "name": "_day_arrays"
+        },
+        {
+          "executable_ast_sha256": "7ac05f2b47bf8229531a3c432e6ea256b2d57a54c9745efc2b0507c0e732b46f",
+          "name": "academic_leg_day"
+        },
+        {
+          "executable_ast_sha256": "bd5001d3fea987ee9df48621432d4514361d496d482a3b5fb11e688072d94e14",
+          "name": "book_day"
+        },
+        {
+          "executable_ast_sha256": "9f3770d2916f8d613ee1c6dfa86c0c16110e92fdc1090909080e4aedbf90fe9e",
+          "name": "rebalance_book"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "ce3f9ad334f309b2117c170066eb94edc37de4804cfb6f32562271522a823a79",
+      "original_source_sha256": "373da2ff3ea7dc0bff4c6ef0017314a8b8f4c7ff29d65202d052b623b7030db8",
+      "path": "src/momenta/signals.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "9738b8eb6eb0af82ec8e27a52e0b555192a548fd8a4a592f61ad0d4fd3ff9d0f",
+          "name": "raw_momentum"
+        },
+        {
+          "executable_ast_sha256": "abc5f595b31116c2eeea9d26ca0b962fca1fbc81ec47ede1244e8f15784c34cc",
+          "name": "residual_momentum"
+        },
+        {
+          "executable_ast_sha256": "2c30c7fee882896b7b2d8dfc8db443f3a951f0438a252797a70be88af79b1e24",
+          "name": "_check_keys"
+        },
+        {
+          "executable_ast_sha256": "e672384723a6a1d557afdea5741f4cbef246c4c92d43650d6018fc75c2848e6b",
+          "name": "build_signals"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "082e9705317e375adcad8d3923275039603857084485ac2314185eef9579eddb",
+      "original_source_sha256": "593774960a0d20a9363e7658e428f75b9428215331e050ef7b6e04020835d6d6",
+      "path": "src/momenta/targets.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "a36453466af9a0a07d76b9eb910cdcd4572c911d229a48c1508003ea2a263cf8",
+          "name": "forward_targets"
+        },
+        {
+          "executable_ast_sha256": "d3fa014fa87e4a4881e8d6f1ee61072231bcfaceb6a31abb72df88d4571d1ad9",
+          "name": "tail_labels"
+        },
+        {
+          "executable_ast_sha256": "39e6329952c750a61fdf935a0730b898c48e155b099c0cfb1d98196b703aaa7e",
+          "name": "_calendar_dates"
+        },
+        {
+          "executable_ast_sha256": "dc9c41f59399a3f7cc4219aa55041defce153e38264e47f2f9d58c1921edd600",
+          "name": "build_targets"
+        },
+        {
+          "executable_ast_sha256": "2dd97608f23942f3befb83fb38609d58b7806fb458afc882b366f826b1db87c9",
+          "name": "overlap_counts"
+        }
+      ],
+      "text_substitutions": [
+        {
+          "original_text_sha256": "6465da52e0a4546498eaf96df1f87bba4b28bc9c9281bebb9ada43939fe7e08c",
+          "public_text": "Holdout-origin targets are restricted to the design period"
+        }
+      ]
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "683f6c497a9489ef33e412614148a1245a95ac4e3cb96ccc99169b4b6dcd4fee",
+      "original_source_sha256": "fdf4fef6754e1dbd3abffe38a2afaa2b56372d1c855aef56ba408500925ac7f6",
+      "path": "src/momenta/walkforward.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "48654eb8c046a27136d914600e7cfcffd42e65e2a18d855d08aa2ee598763eb7",
+          "name": "Standardizer"
+        },
+        {
+          "executable_ast_sha256": "253fa094a6ed61efd0836218a791a51526af5cf05021b25a96a25d7f9d7aba3d",
+          "name": "RegressionFit"
+        },
+        {
+          "executable_ast_sha256": "9675a77638f30813470b175d426202251c4f9ee800e7032f7f48b3a7c9a4732e",
+          "name": "ridge_path"
+        },
+        {
+          "executable_ast_sha256": "d644b11e9098f6947b4d73bdd0166993d81eb666427207d4bdee79610b3f1bde",
+          "name": "block_ridge"
+        },
+        {
+          "executable_ast_sha256": "865dd604072fdeecaa950551101976d105ac1b210306b5ec94024f2a841ff27b",
+          "name": "block_logistic"
+        },
+        {
+          "executable_ast_sha256": "8aca94402978fc6fac7f1f58ddd918c91dfb7b8ee5ccb54a65896967cad453e4",
+          "name": "fit_regression"
+        },
+        {
+          "executable_ast_sha256": "458bb3e4513d137fe1192d0afe262533d89e42dc830fd7ec6137ef25369eea2a",
+          "name": "select_penalty"
+        },
+        {
+          "executable_ast_sha256": "1dd2c037a2b8e5f620b863a8b86352c67acc4007b22934c68d34385d701dc1e8",
+          "name": "select_block_penalties"
+        },
+        {
+          "executable_ast_sha256": "45855c81aecde6908e6ec308b2ef3d7fd5d7cf5873428117eb703b0b538304ac",
+          "name": "assert_design_origins"
+        },
+        {
+          "executable_ast_sha256": "1e5e886bb89cc61928ddd14533da62549d41eccba880e9d20b268a9b85cef16d",
+          "name": "month_end_origins"
+        },
+        {
+          "executable_ast_sha256": "3ac9980e3a153340bebc8ae121044b893445f98555b000d7b62902afe368fdba",
+          "name": "refit_for_origin"
+        },
+        {
+          "executable_ast_sha256": "590a4f41db7ba67259d330737dad149f0f7f925933ddec10285767aa623fc04d",
+          "name": "subtract_months"
+        },
+        {
+          "executable_ast_sha256": "dcc41cde621676b28145a9b6176d51c0eac80d52348df10c8e7afd2642d66823",
+          "name": "TrainingSplit"
+        },
+        {
+          "executable_ast_sha256": "d168e11df747aaf63bc12fb195497f5fd5af3d8505faedf8719a740451650919",
+          "name": "training_split"
+        },
+        {
+          "executable_ast_sha256": "3504d2d42d86232b9870a96f726ba9207b6c0602a2282f5430ce16ebda510494",
+          "name": "ForecastRun"
+        },
+        {
+          "executable_ast_sha256": "0674ff14bdbd42cabb03b23dcc9e6d0c15fef3910012ca3f47a84e32e7a1c1e6",
+          "name": "FeatureTransform"
+        },
+        {
+          "executable_ast_sha256": "21bebd719efc0682dc9a012ffb26870e49130d4404031f8bc169f16010191e0c",
+          "name": "feature_block_indices"
+        },
+        {
+          "executable_ast_sha256": "7b7e2baec2ffbb7de76f1a8ba622d4f4173efcc6472539643b95614864573e05",
+          "name": "walk_forward"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "4d5bb001834b418ba5f1cf96f942dffa0339aaacb9b3efd90c90d810235ec71d",
+      "original_source_sha256": "21d299f9700b748ee8b205a05f3738ca3e1e77af41a4583f22f17c897ff839c0",
+      "path": "src/momenta/study_statistics.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "63f1a5165d0a4e7dc1191397a2816bde7b2521ce218c4b4d15b2a8fa0fb735c9",
+          "name": "_vector"
+        },
+        {
+          "executable_ast_sha256": "83ee807d048ff7a110f95f7485f3769891e1311ec002c9c99f2c2362759d66bb",
+          "name": "_paired"
+        },
+        {
+          "executable_ast_sha256": "822bb5146757a1848fcd91281c5aaade7c788ef087e8ec43a88059ff14fed59a",
+          "name": "holm_adjust"
+        },
+        {
+          "executable_ast_sha256": "12dd4c5e1687f29dbec2c9c18b4f7acb48450ea297a72dcd8098f77a43c2d122",
+          "name": "nw_test"
+        },
+        {
+          "executable_ast_sha256": "442ec52d855dc35b97c30ee1ae31fea8f4e043a72e49f5d5e7c2139869c7549c",
+          "name": "clark_west"
+        },
+        {
+          "executable_ast_sha256": "173d5057a76c0041a4d86ee08e91ec2af848108c3d1138d8586abfe35b1129dc",
+          "name": "diebold_mariano"
+        },
+        {
+          "executable_ast_sha256": "24c3c9bc081552cb447f553fcf19d8e0c7c7091ec86feb4999071855ce68e4f4",
+          "name": "stationary_indices"
+        },
+        {
+          "executable_ast_sha256": "ee4cf48352631ad39aaf36a868c00c429b268eb127e63b181e6185165fbd417c",
+          "name": "interval"
+        },
+        {
+          "executable_ast_sha256": "3d83272b0a83e96b2cf50819f08f05ae6befe7c044c982e6c3e6dbc08667161c",
+          "name": "qlike"
+        },
+        {
+          "executable_ast_sha256": "e05422b69667263e746951fb08ca259f7651bfbfa913070337fd953a7b32dd76",
+          "name": "brier"
+        },
+        {
+          "executable_ast_sha256": "1345de37ce85813b2faee9aacff62ef06b30604f131c4f02e3eae63bde24dccc",
+          "name": "_auc_rows"
+        },
+        {
+          "executable_ast_sha256": "6344920d2bcf2a00a1eee0373c519680f1eb8b8cf442fd9da19a58610beae27e",
+          "name": "auc"
+        },
+        {
+          "executable_ast_sha256": "d9add78526d7aa8f8102364c96b40c90513700527758d1938018db58f59de92d",
+          "name": "forecast_metrics"
+        },
+        {
+          "executable_ast_sha256": "894eba36997da438640ed92a4018d3f8c32d2519bdafc460047288ce0f4979e7",
+          "name": "h2_contrast"
+        },
+        {
+          "executable_ast_sha256": "1f7027d1d86a44d749733aa36500aa575311b1411293e167c7d61a4fbfe645c9",
+          "name": "lo_sharpe"
+        },
+        {
+          "executable_ast_sha256": "b9a6a50dc55a6400b49c061d634d2c44e9742b0db1bc20251299d31b9da3ded2",
+          "name": "lo_sharpe_draws"
+        },
+        {
+          "executable_ast_sha256": "d53ec894e7427929dbc1780963e6dbc5aa5434bc45b50d64ffce45148699f4a8",
+          "name": "deflated_sharpe"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "74802e5e9204d72f980981bac4ef6af2bdf6c37af67d27215170afd79ab2f050",
+      "original_source_sha256": "1c67f29da4e95590b345e81fdcd197a773174708b7baf138a8ce677eb6fce991",
+      "path": "src/momenta/strategies.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "81a6364ed96ea4e655b7d4f8162f3b4739657dd6549ea7303ed94e9812d5c338",
+          "name": "StrategyResult"
+        },
+        {
+          "executable_ast_sha256": "b77fc7383de9a99bd4ea192060dc6682efbfdd89ad7a44761ca927d046262089",
+          "name": "DMMeanFit"
+        },
+        {
+          "executable_ast_sha256": "77428d9b8a2cfb76f00485a17907c72bd2d1fe4319d515339fc30dfd48e09339",
+          "name": "DMCalibration"
+        },
+        {
+          "executable_ast_sha256": "b5893a008e637e8cf83ab7fa64d80cc949fe94512045e32b19ae99fc06b414e2",
+          "name": "volatility_multiples"
+        },
+        {
+          "executable_ast_sha256": "d1e32c1f5381e15b38064f0cc4d16dad8adde7297fea47fe080d66024e2f6c0e",
+          "name": "_one_book"
+        },
+        {
+          "executable_ast_sha256": "0951b30a941e23788be096c92e5c3e9c7ef3f5ba9a8b5f66fb32652e970990d0",
+          "name": "simulate_strategy"
+        },
+        {
+          "executable_ast_sha256": "423198b2f2ad8a559907ea243a010666f316c8a75066d48b5299200d839ae050",
+          "name": "_next_month"
+        },
+        {
+          "executable_ast_sha256": "043275043717f8aac14d81c103cc3f8ba070a573ae307f7248d89b7d447d899c",
+          "name": "build_dm_pairs"
+        },
+        {
+          "executable_ast_sha256": "aef171578eee3e91556c6138a45e382a5b40e7dd21824065ba0bbf1f9f14776d",
+          "name": "fit_dm_mean"
+        },
+        {
+          "executable_ast_sha256": "242e4fac00b560b72ba091026ab1a0ada3000c8709bf283bad800aca75d0eccc",
+          "name": "dm_multiples"
+        },
+        {
+          "executable_ast_sha256": "4d829923b76d0fbc91d939c8dc8918ff5e2d949026aab06e1fc4fc185e6567c3",
+          "name": "gross_scaled_monthly"
+        },
+        {
+          "executable_ast_sha256": "5216ea783b9c86b6bfe1b4999dc902b0623290a539146320999bafeadf4693af",
+          "name": "calibrate_scale"
+        },
+        {
+          "executable_ast_sha256": "f1eccf4547ea37d85564cd534d64b3ec1a98aac015e28eea97f7cc28fec0b7c8",
+          "name": "calibrate_dm"
+        },
+        {
+          "executable_ast_sha256": "9c4373f21badc49460808deaf9e1e02aa8294513d6ddd960c14a779b1573b439",
+          "name": "calibrate_training_scores"
+        },
+        {
+          "executable_ast_sha256": "5048d50dbe747604da03310ffbfe25e265d4c1cb461e3baae767fdec8dfe6bd8",
+          "name": "break_even_cost"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "c9bfb5b4b67740897c93ae67d10d0fcc056f38908150f7fa19f090132185ec3e",
+      "identifier_substitutions": [
+        {
+          "original_text_sha256": "29c1b289e7522195b362e44f54e05470b69ad20540ab60a18a05e5bf6951f13d",
+          "public_text": "portfolio_dir"
+        }
+      ],
+      "original_source_sha256": "7cffd2705541aba999a0307f66422ee7763b3f25bc56901ac6323002d04e5d89",
+      "path": "src/momenta/l2.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "691ae2a2725dcbb5b7fd380e0df27929e9c2e1b80f087eef40f94e3d66ab0986",
+          "name": "L2_COLUMNS"
+        },
+        {
+          "executable_ast_sha256": "d0f6085688a34e1a6e06418aa750ae3790dccff74238e0f8800405215bc4f26a",
+          "name": "BalancedPanel"
+        },
+        {
+          "executable_ast_sha256": "13c9f61b4ab3206e483532bb5355a705a83fa8e7e2cee20cac45047a9b8163f0",
+          "name": "balanced_standardize"
+        },
+        {
+          "executable_ast_sha256": "5f3855a239448cb0ef26b454b31da1de3b91b2f4851b0007e6e0ed8e86df279f",
+          "name": "within_correlation"
+        },
+        {
+          "executable_ast_sha256": "8fb51a84adbf000c79246834ec57d9ee84c0cf75f5b2c6618d55d346e87ecea2",
+          "name": "cross_correlation"
+        },
+        {
+          "executable_ast_sha256": "1c8d237b0672c5c219032e835b6652d0653f15850e3fcd9d0b6eac0350b07b1f",
+          "name": "rank_correlation"
+        },
+        {
+          "executable_ast_sha256": "71cbba0cf3cd9b177bc4a07a3a85e12490c7f67b8ed11c8f172c4920e2cccbb0",
+          "name": "breadth"
+        },
+        {
+          "executable_ast_sha256": "ad4a1bbfa3acef286c82b7afb46fab586c4b7be6207793d24bc730ce060c104b",
+          "name": "shape"
+        },
+        {
+          "executable_ast_sha256": "4bba04137fdc2ca14331f4c00792ed89e2518a1310a7125a1dfc5168023ef36b",
+          "name": "monthly_features"
+        },
+        {
+          "executable_ast_sha256": "f7800b9063d00f1872bd6b09217080a6545010da89168c708e41a8f02821e127",
+          "name": "build_l2"
+        }
+      ],
+      "text_substitutions": [
+        {
+          "original_text_sha256": "3d59bb9c5f50adac4d911086fc5d62901df4ccc1b1352a82ab38a0b1988e8fb9",
+          "public_text": "Holdout L2 feature origins are restricted to the design period"
+        },
+        {
+          "original_text_sha256": "b9596046fa3f53f87157e80dfaa31db168e5a24bd258cd6e46d9c3bdad050971",
+          "public_text": "derived/portfolios"
+        },
+        {
+          "original_text_sha256": "05b2edd7c8ca4608238f8a149767c5ecf38ad1dd660acfdfb653a62309edbe26",
+          "public_text": "derived/l2"
+        }
+      ]
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "9ea5bad1df82e8cf09add2f2d70624e7e25e73da8759a2ad421c1dd4243a2947",
+      "identifier_substitutions": [
+        {
+          "original_text_sha256": "29c1b289e7522195b362e44f54e05470b69ad20540ab60a18a05e5bf6951f13d",
+          "public_text": "portfolio_dir"
+        }
+      ],
+      "original_source_sha256": "c4492fed1e07d93b9bbad2889769a795b27d18bb768cf0427443149f21cabaa7",
+      "path": "src/momenta/copula.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "ac367cbafad814d226cdaf0865e0322bc3c35c44f8d477d9a78efc9116514aaf",
+          "name": "COORDINATES"
+        },
+        {
+          "executable_ast_sha256": "ea9202723ffc58ccb3c8f86f59bf308ba6209b05cc60066d9dc18e8a15c21bff",
+          "name": "CM_PAIRS"
+        },
+        {
+          "executable_ast_sha256": "e2424227f5c5cfdef04bd676320f7d3defa45b4d51cf8aed0804c61cb251d517",
+          "name": "CM_COLUMNS"
+        },
+        {
+          "executable_ast_sha256": "d66c14540291406858b60dcafd48085f32f158d19ee8cb5f2a341fefd0048dfb",
+          "name": "Q_COLUMNS"
+        },
+        {
+          "executable_ast_sha256": "1334a2607ac13a8291952593f001df8d4c77ab0bcc60721e53ec356a70cae760",
+          "name": "OT_COLUMNS"
+        },
+        {
+          "executable_ast_sha256": "ef7eb5040df89fdec91fe7878550985e5736731e9db57d5e6b89391c97198a38",
+          "name": "copula_cloud"
+        },
+        {
+          "executable_ast_sha256": "98d10e0354d89028e26b1e82e902c4b579e530f0c1831ce0876b3c2c27de0faa",
+          "name": "stock_beta_sigma"
+        },
+        {
+          "executable_ast_sha256": "142088df0c8439ad33f190966c3de2cf21ca2e1e0a6f15587bb17503d5c2b0d5",
+          "name": "unit_directions"
+        },
+        {
+          "executable_ast_sha256": "5dc07492c96fe963873bc2ded71ab1498589ede7ae49f7fab234a062b8a43334",
+          "name": "sliced_quantiles"
+        },
+        {
+          "executable_ast_sha256": "395bb0d2632ac0270b196a2866130a6c86ac64f4607abd4c7a47fc2e680f5b2e",
+          "name": "embedding"
+        },
+        {
+          "executable_ast_sha256": "8fa7ae93a8c8c9be5f465cb83613f3e5316876c6c082f30e88ebdd4964668957",
+          "name": "sw2_distance"
+        },
+        {
+          "executable_ast_sha256": "28205956c92c960971e3f23fc6050754b295b5cf61e65bfee9ada252106e40f7",
+          "name": "cm_moments"
+        },
+        {
+          "executable_ast_sha256": "f2fcda690c9a15f597d2f2f0d544639871866b8dfc75f2c4c228edd87f724068",
+          "name": "quadratic_moments"
+        },
+        {
+          "executable_ast_sha256": "6c13a62b84b46622b795303a434060bfcee698dce1c6b92e7bdf0b4747f6e21c",
+          "name": "rank_weighted_value"
+        },
+        {
+          "executable_ast_sha256": "75a6af7f57c8d3089ae781db837844af0d2d733bab80c3a7def1951d4e49d5f3",
+          "name": "CentroidFit"
+        },
+        {
+          "executable_ast_sha256": "815c4e90e2edb591656235a33e68d0958205d18d5c5ef393b3e492b0d3ecf828",
+          "name": "fit_centroids"
+        },
+        {
+          "executable_ast_sha256": "85b056b38fdf4b80e1c39b9d02d7ba1361ee9b2334e30a062fd9749912e21ed7",
+          "name": "fit_dated_centroids"
+        },
+        {
+          "executable_ast_sha256": "9cfd0c456f82c5644dd51411faa2f19b470e3b1966cc5a637a9eece41f9484d9",
+          "name": "separation_diagnostic"
+        },
+        {
+          "executable_ast_sha256": "5b7c5e9d53a0163422ada0851ab5216afe99f02f84f8e0ea60786f6420d62ddd",
+          "name": "synthetic_diagnostics"
+        },
+        {
+          "executable_ast_sha256": "ac2817b25ae7f37162e2508660b7008276a3a05a5e87ff5a18ec6986462d6ab3",
+          "name": "monthly_clouds"
+        },
+        {
+          "executable_ast_sha256": "582f3dd2ee8d64da22286f59244e8077909c94143bcfe10800dc6e7d10cb746b",
+          "name": "build_copula"
+        },
+        {
+          "executable_ast_sha256": "d691410c9902086f400a29c392d2858e55c2e68638bc6a7f75097e886f682af6",
+          "name": "load_copula"
+        }
+      ],
+      "text_substitutions": [
+        {
+          "original_text_sha256": "c00592337e736d563b9bcc13101cf16fda55ee1a65a297ba7ccfe65a43120aaa",
+          "public_text": "Holdout copula origins are restricted to the design period"
+        },
+        {
+          "original_text_sha256": "b9596046fa3f53f87157e80dfaa31db168e5a24bd258cd6e46d9c3bdad050971",
+          "public_text": "derived/portfolios"
+        },
+        {
+          "original_text_sha256": "a527d66cdcb910e595177fca592f0a32220217a6318d0c56c48f0b75e89d67b6",
+          "public_text": "derived/final"
+        }
+      ]
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "da94d50a82fd79811c4891b6ac46006352189b372d7eb73192a774e649307399",
+      "original_source_sha256": "43429c3bf5204f3542f74653fbcffe43dd5a1a61eaf1e6afa016b6075a941ba6",
+      "path": "src/momenta/regimes.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "580af4aa03b17854b0a9305f1f8e5416a117a046f2fa1f840977514aa76ebe2e",
+          "name": "_matrix"
+        },
+        {
+          "executable_ast_sha256": "d0da300adada8a86a07db08cd89075274a102d1564212b8287b960d95e897174",
+          "name": "fit_preprocessor"
+        },
+        {
+          "executable_ast_sha256": "5018d951af18e8ed93f9bd97003ada616c3f22be628416fc54aa0137de7816a5",
+          "name": "project"
+        },
+        {
+          "executable_ast_sha256": "1f111bad913a6cb9f6d9686cfe1c3f2d2f82fffd73f95f2dc681455336363230",
+          "name": "stationary_distribution"
+        },
+        {
+          "executable_ast_sha256": "c564e68da8ccb182a95061f57f1042978a9c8bd01905c987e1c99296b180417c",
+          "name": "gaussian_log_density"
+        },
+        {
+          "executable_ast_sha256": "ab3e655cfd86b55bee476f1e40cea97c80c7df753d00fe2adf7e72dd834f1721",
+          "name": "log_forward"
+        },
+        {
+          "executable_ast_sha256": "4d81338576baaabf6c32608b64e0f4103135d104a9347e034f3c976d89ebb548",
+          "name": "emission_probabilities"
+        },
+        {
+          "executable_ast_sha256": "708d75140923e338d97a63ad5b0feccca83bb7afa4d7e11f8e26f506ff4d7f32",
+          "name": "fit_hmm"
+        },
+        {
+          "executable_ast_sha256": "1c405c858c6a26b5ace8cf6c6dfc6c29f72a3f1176ec6ee86c08c7501ca0a34c",
+          "name": "probabilities"
+        },
+        {
+          "executable_ast_sha256": "46b63e1ecc38b613a9fcd7795aadeab9da65cd5382f4a13a9f48782f97da28d2",
+          "name": "diagnostics"
+        },
+        {
+          "executable_ast_sha256": "59c0780d2977557b8870bf0beeb1ddd0921ee1f817bd04aedb2fe52c6c2154d2",
+          "name": "synthetic_recovery"
+        },
+        {
+          "executable_ast_sha256": "2123c5b2106396594b19c9fd5be42b1e745b3147fb1353f6041bceece61f923e",
+          "name": "REGIME_INPUTS"
+        },
+        {
+          "executable_ast_sha256": "6cae242e16318713b684240734fc246445b592f553dfbef3ac97dcd2e3018432",
+          "name": "_fingerprint"
+        },
+        {
+          "executable_ast_sha256": "24f247ff22c63c7f6b9186d4cbc6bce5c2010310808ae0bb4d13ded0737f24fa",
+          "name": "_write_json"
+        },
+        {
+          "executable_ast_sha256": "8a2568ed63acdda78b42a89b309884ee2e6e24fc4a880819fa425d0aee713cf1",
+          "name": "regime_transform"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "861768597033ba4354093d50521ae2f2421133f53acf3c143fcb67fa606228f3",
+      "identifier_substitutions": [
+        {
+          "original_text_sha256": "29c1b289e7522195b362e44f54e05470b69ad20540ab60a18a05e5bf6951f13d",
+          "public_text": "portfolio_dir"
+        }
+      ],
+      "original_source_sha256": "3a3ad08e21736a79a0651b430400b0817e6333d7464074daf9f6617be1a381e4",
+      "path": "src/momenta/features.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "11a7848d34dd9ca63c0a788f1ea2316637743fa04a9f25b3496feb724a7e1dca",
+          "name": "OWN_FEATURES"
+        },
+        {
+          "executable_ast_sha256": "9700c3d7b91ef171d79680429139cd900e13826e31d7d744dac8bc47cd621a3f",
+          "name": "MARKET_FEATURES"
+        },
+        {
+          "executable_ast_sha256": "673fd403f57588fccaaa9b8db26b7b392dcf4ecfdd7f8ca0a3cf947ff2348845",
+          "name": "CORE_FEATURES"
+        },
+        {
+          "executable_ast_sha256": "790c583e4398e1c1dcf2d8f2cc2e3f35dd32a98417c6cfa13b3fc020c9ae6194",
+          "name": "FEATURE_COLUMNS"
+        },
+        {
+          "executable_ast_sha256": "45d79813f949c80101a3f350fcc7dde2b253d2a1b3de3ce6d0bb3110adb19ef3",
+          "name": "MACRO_FEATURES"
+        },
+        {
+          "executable_ast_sha256": "e0587fa0256cf9215294dc12ab33f32f7a418703e739067b0d38c3b9cdec4b77",
+          "name": "FEATURE_BLOCKS"
+        },
+        {
+          "executable_ast_sha256": "e2b5190a4fed0391cf6bf0a92b885ea4dd70d90e1131469fd592c6c4b30aab8f",
+          "name": "FEATURE_SETS"
+        },
+        {
+          "executable_ast_sha256": "dea0de22e2a019fddf06289504fd9ab3a2cb388b96978afca52553b9b8a4ca88",
+          "name": "rolling_mean"
+        },
+        {
+          "executable_ast_sha256": "a1e0737af00a6c3e0ed89b9c73f13c1e3c29f97c5ac4cb889ebc28a2f9ac098b",
+          "name": "log_realized_variance"
+        },
+        {
+          "executable_ast_sha256": "2c2daefd711b37bcc0c060dadc02f063ed5182cfffa5a96fd8afd126be7c1eca",
+          "name": "rolling_beta"
+        },
+        {
+          "executable_ast_sha256": "9b4b1ed282600051eddd0494a8c360b4869149b08e56c128e7e50254e5d9517d",
+          "name": "quantile_skewness"
+        },
+        {
+          "executable_ast_sha256": "584cabeda538c85908341acf9ae78a37111b6d41e56a192c267c66b6e9abae4c",
+          "name": "approximate_bdp"
+        },
+        {
+          "executable_ast_sha256": "cc4abee6ab30b8586dd57ce74abdf7eaccf39428fcd091f56e12de6d0834fcf1",
+          "name": "average_residual_correlation"
+        },
+        {
+          "executable_ast_sha256": "7e07787bc493ab3f903f79d240ef4ec861c9ca80c734b689e99f99b591230a51",
+          "name": "historical_book_variance"
+        },
+        {
+          "executable_ast_sha256": "e341aa5b3abfcafc776273b90f6af6a4458b081b7bf4af90cda03f35ed928e0e",
+          "name": "completed_week_indices"
+        },
+        {
+          "executable_ast_sha256": "25fcf0240c13ae85ba42f75d7c8ef0766c518c1e8c442b535bb957e88fbaad14",
+          "name": "weekly_compound"
+        },
+        {
+          "executable_ast_sha256": "962c2615a0aa5ff192f70d1047038a5c2970b52b982e6d801ad7437f312d68ef",
+          "name": "own_features"
+        },
+        {
+          "executable_ast_sha256": "9ecee0fb95c40f4d9c2c3d2fb5fc70a0dc79de80d7e53c7310486ab360596c34",
+          "name": "market_features"
+        },
+        {
+          "executable_ast_sha256": "980af1d32a7dbe0b203b3f5444f9019f390628b0249091168aed5ab6de07abfd",
+          "name": "macro_features"
+        },
+        {
+          "executable_ast_sha256": "8c0fe51d4bb588e3b120d4221d21578a9dc924953befb70f2091d78dc33873e2",
+          "name": "_stock_panel"
+        },
+        {
+          "executable_ast_sha256": "9aa8f17bf4d76e71517e263822ba2c64ea4681614b3ed956db541fb4a9867d3c",
+          "name": "cross_features"
+        },
+        {
+          "executable_ast_sha256": "fb9153db365a8f55ea71b475612f8e99647b3bead5b37b1d6505b9558c65f4b8",
+          "name": "build_features"
+        }
+      ],
+      "text_substitutions": [
+        {
+          "original_text_sha256": "b9596046fa3f53f87157e80dfaa31db168e5a24bd258cd6e46d9c3bdad050971",
+          "public_text": "derived/portfolios"
+        },
+        {
+          "original_text_sha256": "d6e81b5d96e2bf77ed3b379ef3bedc86562900b876cfad94fe674e89d6d81812",
+          "public_text": "derived/baseline"
+        }
+      ]
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "dea9daa1a86636f46ede6f328c135f8a367fc4ffd0f29dc5eccdf73715a8ea20",
+      "original_source_sha256": "515bf6a06c87228b45178a428099012a0c47e7b6442ddfbd7c59f9ab5e3e8c92",
+      "path": "src/momenta/events.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "ce9c435d67d674144f7e96b5820119e9cbd0a5e1ea35dbc6bc9db3f4afb35bfa",
+          "name": "Action"
+        },
+        {
+          "executable_ast_sha256": "916d9cd694e4885a379917c37d7fb7f93ede73ade489b56f5a9e399e20c1f15f",
+          "name": "DelistingResult"
+        },
+        {
+          "executable_ast_sha256": "d022e3f4548b879d7f80b964ce02a416311e17dbe394de5b9a45f3cc0ff75259",
+          "name": "_imputed"
+        },
+        {
+          "executable_ast_sha256": "86f0e5c33b8b6f8e135915ffd198adda63334091f2b8181018e053ecdc0899ae",
+          "name": "_consideration"
+        },
+        {
+          "executable_ast_sha256": "b513ea0cc74e6c93a6ca0ce35b0a7de3c6959d34aa9c02f36e7f3d323ad0bf3f",
+          "name": "classify_delisting"
+        },
+        {
+          "executable_ast_sha256": "b62e81c9930785affb318376b27f8be427c57d190451a09bd41372deb6cd79ca",
+          "name": "SicIssue"
+        },
+        {
+          "executable_ast_sha256": "58e5d2915390f98769856cacec721bfa9be0a87c112fad1edb2969e4f16f4613",
+          "name": "SicResult"
+        },
+        {
+          "executable_ast_sha256": "f955dbcfc31513dfa87ee1131f6b5ec26f5fe486caa6cadcf8f6e9c6e7c6f3df",
+          "name": "_sic_value"
+        },
+        {
+          "executable_ast_sha256": "dd131bf969ec150ce678bafca80ac67f3d9cffc3e4385183c75d5523f4806856",
+          "name": "rollback_sic"
+        }
+      ],
+      "text_substitutions": [
+        {
+          "original_text_sha256": "99f29cdd6db068e9ad3cc5e5af5f8b9d961bc3cc8cf0a03e38c308222c3b86af",
+          "public_text": "The event convention requires choosing cash when available"
+        }
+      ]
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "03cd6d76fbd64c24d0034e5b066a09e8fe2b4d0c8e4f5caeae944d5a724e6722",
+      "original_source_sha256": "f8432eb53a7c798a5c0ce5947c405ec1cfff6b229d0148df2b8f8354bd670296",
+      "path": "src/momenta/settings.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "e6d18b14cc99ceeb4936863aa98c7e3beb8791fc0b83425aa5cd8714594ee613",
+          "name": "REPO"
+        },
+        {
+          "executable_ast_sha256": "e8fdd96e52e2ded75bc6d4aa6923fd6be494cf06b4d95505f800fbb60630e582",
+          "name": "load_settings"
+        },
+        {
+          "executable_ast_sha256": "b16028beb8e39a4d5eb888a03f7211e1110f911f0539b582fb8b4c8c1b17f594",
+          "name": "connect"
+        },
+        {
+          "executable_ast_sha256": "fb4b4fd514ce458c39cdae8aa3fff853efb4103b9678d4ae3dca3ec61d0f9290",
+          "name": "sql_path"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "e0b0732c11f50b798123f960172467a5b2fc9739c73ba3b561cba0d1c4cbf76a",
+      "original_source_sha256": "e9f15dc6e7200f212d1ba61da84b8e4b41d44ece77905ff0ca6e64a737c9e2b7",
+      "path": "tests/test_accounting.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "63a75864ea6daa0235e3d079aed25496994a1d9c2898591089125eef90f3981a",
+          "name": "test_two_day_example_distinguishes_monthly_legs_daily_spread_and_strategy"
+        },
+        {
+          "executable_ast_sha256": "88d8f401703c39ef014797d5b7b14c5e93397f9cfc43b3b39f8981d49eddd2f7",
+          "name": "test_previous_book_earns_execution_day_before_new_formation_is_traded"
+        },
+        {
+          "executable_ast_sha256": "18da477dbea3b119ff7fd81cfd2f88e8c3ec6f23c9bab4ee4c95943ce678af14",
+          "name": "test_first_execution_day_is_cash_and_unavailable_target_allocation_stays_cash"
+        },
+        {
+          "executable_ast_sha256": "9cf6bf40acb3a9970077ca27d0eff98405d0314b5ff4b1aa52802adfd7d614d3",
+          "name": "test_terminal_long_earns_then_settles_with_academic_survivor_renormalization"
+        },
+        {
+          "executable_ast_sha256": "4cb3b227c4cd90c2a223416bd2cc4153fc3a5c6cd87d44b9b7a777c7f4af1510",
+          "name": "test_terminal_short_settlement_has_signed_cash_and_positive_profit"
+        },
+        {
+          "executable_ast_sha256": "e618416d4cec25fd3419c02c3574a8b62c0b47bd3a2d80de4139489df0392aae",
+          "name": "test_academic_leg_without_survivors_holds_cash_until_next_formation"
+        },
+        {
+          "executable_ast_sha256": "6bc140db2f69ab124cdd0e89c86874cee145115dc3cf8dc4c08f2979bad78777",
+          "name": "test_ledger_nets_offsetting_formation_and_scaling_trades_once"
+        },
+        {
+          "executable_ast_sha256": "455664337139e539620cf417765590a40fe0d3250e38a85c27f4aaac08f7e43b",
+          "name": "test_drifted_positions_determine_rebalance_turnover_even_when_nav_is_flat"
+        },
+        {
+          "executable_ast_sha256": "839200a405ee882835f7e941d95ea8725b16d6aa9f4e04b4edc3d3514e82b97d",
+          "name": "test_nonfinite_return_on_a_held_security_fails_even_when_terminal"
+        },
+        {
+          "executable_ast_sha256": "c1da7d17a3dfd5fdb890b51d79bf7ab041198db8fa4d9a7ba7275e622dcd20cd",
+          "name": "test_inactive_nonfinite_returns_are_ignored_and_inputs_are_unchanged"
+        },
+        {
+          "executable_ast_sha256": "656c6b165d4396ad70aa2259d3450ccb11dd77bba82968da1ea44f49663dd484",
+          "name": "test_invalid_stock_return_and_insolvent_nav_fail_loudly"
+        },
+        {
+          "executable_ast_sha256": "5636be8815e376ce45e1b52f98e594becb45a27d8d34514a6e96f2ab2f5163e6",
+          "name": "test_book_cash_conservation_for_bounded_positions_and_returns"
+        },
+        {
+          "executable_ast_sha256": "abcb3097b0816e776b431bf16fc5cfa5c3c62b10d35285a0f3083d6d48234222",
+          "name": "test_ledger_turnover_is_invariant_to_account_currency_scale"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "cc435b0a67c22f5e559e9ed8deaaa1f99dd8297593ccdda22804780481a758ed",
+      "original_source_sha256": "a4316d4e16f048ad63860ed455c959835d3bd06ade06f2cfff0e2a15263b556b",
+      "path": "tests/test_signals.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "8727cff7975333895528d82041aa4d5c3c99667634dc0c2801f76f42d5eed70c",
+          "name": "SETTINGS"
+        },
+        {
+          "executable_ast_sha256": "b33de49452c7739ccb9d6f891af9fad8d144c80eda7afd5c8a52410c889cb578",
+          "name": "_dates"
+        },
+        {
+          "executable_ast_sha256": "5e9343c9a28a8509a5c08a2d4484d0ebcf335beb017e2f038aad3fcb64079592",
+          "name": "_panel"
+        },
+        {
+          "executable_ast_sha256": "44b70d2134d7b978cc20c6fce4d2863ecf8a608b692b3500ddc3f90dd2866428",
+          "name": "test_raw_compounds_total_returns_and_accepts_total_loss"
+        },
+        {
+          "executable_ast_sha256": "6b97eef19d220eed101b63d687e3b927646b990538f44180742f7cf2263ff2d4",
+          "name": "test_residual_ols_recovers_known_noise_with_intercept_and_risk_free"
+        },
+        {
+          "executable_ast_sha256": "9768823def509b6252c4890fa34d1636455c2201efaa4ed2efb00cea23bcb3c1",
+          "name": "test_raw_uses_exact_calendar_window_skips_formation_and_preserves_universe"
+        },
+        {
+          "executable_ast_sha256": "b580a187d985baa5753bc250cebc7c69ed4f9e8c815412d7695fc05011fdb8bf",
+          "name": "test_res_sample_sd_and_current_month_included_in_fit_but_not_raw"
+        },
+        {
+          "executable_ast_sha256": "314cc00091ae6bc149d87ac9a677506576825348ce9a00138271a77a5269f659",
+          "name": "test_fit_uses_36_calendar_months_and_ignores_future_data"
+        },
+        {
+          "executable_ast_sha256": "0b57f15ecebf0bb57e005d90b8705abd567ced449862a542c6295b721aabced0",
+          "name": "test_first_res_formation_has_24_months_in_december_1999"
+        },
+        {
+          "executable_ast_sha256": "28f281aea7836e7c2d4cf21f82e0c71ac3e7f3b7d899a9d2af89bb09260688ab",
+          "name": "test_zero_returns_are_retained_in_residual_regression"
+        },
+        {
+          "executable_ast_sha256": "b7a79e5332e193ed3584b54d51cdd89ac25265b3d2300d84bd0b728bd762994b",
+          "name": "test_missing_formation_month_is_not_replaced_by_older_return"
+        },
+        {
+          "executable_ast_sha256": "d06acb769904e9be91b698b125941c8d80c0ff40c07295d7fafb984a260c3d36",
+          "name": "test_missing_factor_cannot_silently_shrink_recent_residual_window"
+        },
+        {
+          "executable_ast_sha256": "e0e94b615ac75a8632e7a590cbbd44fa49f2b461b0b2039a64971cc690bf82fb",
+          "name": "test_duplicate_month_cannot_inflate_history_count"
+        },
+        {
+          "executable_ast_sha256": "007efb50e12e5c123f865a40cf4a83b97d4737762bee58b5573414d24b085ef6",
+          "name": "test_perfect_fit_fails_instead_of_ranking_floating_point_noise"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "9959ab92d691b81475608e72425b683388025702e1a9a4793aaba14691266fd5",
+      "original_source_sha256": "f44107cc8588497db91c8eb8a586ec72bbbac71559a380cc67111be56e12137b",
+      "path": "tests/test_targets.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "348fc382f3e5303e7a3a29e6c8a6fd960a47896cf20b4c40d5d934f7a24b48fe",
+          "name": "test_execution_day_is_excluded_and_window_is_not_demeaned"
+        },
+        {
+          "executable_ast_sha256": "16cb53a4f04815eaa0cda8b094ffb34083bab1bc05e7f4687fe42474f2bc8c9d",
+          "name": "test_zero_variance_has_no_arbitrary_log_floor"
+        },
+        {
+          "executable_ast_sha256": "9c4aa76679aa9e7dd149e21b8108ac06aaf005b400961a648659fc7441505851",
+          "name": "test_tail_cutoff_is_supplied_and_equality_is_not_a_tail_event"
+        },
+        {
+          "executable_ast_sha256": "2ed781def51e0c0fdc946cd97fa513498be26508502c1e852ec2d27625598e20",
+          "name": "test_dated_targets_preserve_calendar_holidays_and_fail_on_missing_book_days"
+        },
+        {
+          "executable_ast_sha256": "332c910b6ab479a193f2c398114bffe6ca862baab55fe6602aa56e58014fff19",
+          "name": "test_overlap_counts_use_trading_indices_and_actual_month_ends"
+        },
+        {
+          "executable_ast_sha256": "04e2b7f327a7206bd205bb82c2717cd279f0f178f6def6c7fbfa9285e7ebf21d",
+          "name": "test_origin_bound_does_not_cut_off_its_future_target_window"
+        },
+        {
+          "executable_ast_sha256": "07f9911ef749b9d4839fc034ed1cbdbca4a959ec4cf2f2791fe2e31c56d71ba9",
+          "name": "test_design_bound_precedes_target_computation_and_rejects_holdout_origins"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "b233fb71a1b432b87fd639dd7ac9ca61566a47f33c254f7f2ee5041347051fde",
+      "original_source_sha256": "2c447b1be6239193da44d91cb124aa1559978d6dd45069e110cf446ce6641883",
+      "path": "tests/test_walkforward.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "4ce0ce095991fdf4516a7c61db72a34f536f4286af323c0bb16482e048ec9dd9",
+          "name": "weekdays"
+        },
+        {
+          "executable_ast_sha256": "989eddaac99db9b3c6717877c7aacf6cafe2c57513cd8191178a2215f34e8a97",
+          "name": "test_ridge_uses_mean_loss_penalty_and_unpenalized_intercept"
+        },
+        {
+          "executable_ast_sha256": "c020c893b9413bca3d793aa83c4d7fb12b9e726f6e5911cdc0e9e5a27528b9fa",
+          "name": "test_ridge_matches_independent_sklearn_alpha_n_lambda"
+        },
+        {
+          "executable_ast_sha256": "1edea0991b71b54bcbe81462fe068a6d96612395ba6ff31c4bd73d108bcd9fed",
+          "name": "test_standardizer_uses_only_training_values"
+        },
+        {
+          "executable_ast_sha256": "4aa13481debf55943ea673e55b0b740df2e3f07fd0ea43e7e7153de1f85ab1a2",
+          "name": "test_logistic_observation_duplication_keeps_mean_loss_objective"
+        },
+        {
+          "executable_ast_sha256": "810312fd18772f500abcdd263d207c5774d67e66765a68f24670b87627c49e24",
+          "name": "test_penalty_selection_refits_scaler_on_inner_training"
+        },
+        {
+          "executable_ast_sha256": "52b0260864eb6cbc3b732728999b8c17b9ca1d3924a00c0a49edfa3be85e9a5c",
+          "name": "test_unequal_block_ridge_has_hand_calculated_shrinkage"
+        },
+        {
+          "executable_ast_sha256": "f95811914a7fddd90ade85f90b2a515c88cd0c3fad8b3066a7150b1545769aa7",
+          "name": "test_clipped_training_matrix_preserves_a_free_intercept"
+        },
+        {
+          "executable_ast_sha256": "3a294e2f0526372d055495effa8aa8429791c4f9bf4fa157dbf8bcdf0a1dc151",
+          "name": "test_sequential_choices_keep_earlier_penalties_even_when_joint_grid_is_better"
+        },
+        {
+          "executable_ast_sha256": "c5481e2761cc8817347e6cbb501690c6f7ed03c5b558d49fd85627853361c224",
+          "name": "test_exclusion_drops_columns_and_exactly_reproduces_prefix"
+        },
+        {
+          "executable_ast_sha256": "cefee74301c69995843d2f40ed3d5791c9ad2ab2efae212d0dcdf7e4ef069a15",
+          "name": "test_later_block_is_selected_after_an_earlier_exclusion"
+        },
+        {
+          "executable_ast_sha256": "778eda95944eb7646d1284760a39359f250f5ab5c5e325d54f0d7965730ec030",
+          "name": "test_all_blocks_may_be_excluded_for_mean_and_tail_benchmarks"
+        },
+        {
+          "executable_ast_sha256": "a0f1c3c4d4b9485cf483180dbce7b3a7008658e7805f03ce7633f803f16a8b45",
+          "name": "test_logistic_unequal_penalties_satisfy_original_objective_gradient"
+        },
+        {
+          "executable_ast_sha256": "d766ddeea8fd1241763eeb205a80106d025a593e618556d08e0a499d6a19316a",
+          "name": "test_excluded_logistic_is_bit_exact_training_base_rate"
+        },
+        {
+          "executable_ast_sha256": "5a91e49f89fad80577cbe93d61d777fd1b56940c4d18c6c74996f94ca32ff888",
+          "name": "test_registered_block_order_is_enforced_with_fred_appended"
+        },
+        {
+          "executable_ast_sha256": "ba6b36b05fa700594e2f72381312ffe21b062c4b82b21896d314772614b02b1b",
+          "name": "test_december_uses_prior_fit_and_january_begins_on_first_session"
+        },
+        {
+          "executable_ast_sha256": "4dc7a561b37a8ecf05d61c7607074448658af59a911a494a01a0539287e39fb9",
+          "name": "test_full_and_inner_target_windows_end_before_their_boundaries"
+        },
+        {
+          "executable_ast_sha256": "a2cb47154d50290adcd033e35d66069c61d922f1479e0aa1a39f6871a5c49681",
+          "name": "test_holdout_guard_rejects_any_later_origin"
+        },
+        {
+          "executable_ast_sha256": "077b28405fb310bbbe471b9bc6e846c03505c3134aeb50be993ccb544e2a5a05",
+          "name": "fixture_panel"
+        },
+        {
+          "executable_ast_sha256": "f726d79ee1343fde2ccdba93c48c579f0d1e87c1d7659cb842b3a6e34a0ea264",
+          "name": "test_walk_forward_december_origin_and_future_damage_are_exact"
+        },
+        {
+          "executable_ast_sha256": "3434312e4942e5c16d551ff19fccd1e272d9122f9a7ff4ffa69faaf036dbeb66",
+          "name": "test_walk_forward_excluded_extension_equals_prefix_and_audits_every_choice"
+        },
+        {
+          "executable_ast_sha256": "295cc113684a041f2f2a60289b1a8f67ee1a8171c67615b98c8a4a4bbc6f18ce",
+          "name": "test_walk_forward_refuses_holdout_before_transform_is_called"
+        },
+        {
+          "executable_ast_sha256": "2f6d6a50f15178563e1bb8bd859dd6caa7518ee8ba126fff46aaec700205ae90",
+          "name": "test_learned_transform_is_refit_at_inner_and_full_cutoffs"
+        },
+        {
+          "executable_ast_sha256": "9e1fb2f86194d187d462be883e06620bc262ad04247bb4dfc54fbc13aea275c2",
+          "name": "test_tail_thresholds_are_separate_inner_and_full_training_quantiles"
+        },
+        {
+          "executable_ast_sha256": "5928726d83a48c366379c78f47998c46a6f60cd9c512e519e2f30c763c31ca29",
+          "name": "test_month_end_calendar_keeps_december_friday"
+        },
+        {
+          "executable_ast_sha256": "ecc1713fc9e37f53d87d2c5249b15b3d13d520d67f40cbb3df6f93049947c40c",
+          "name": "test_partial_calendar_cannot_create_a_false_month_end"
+        },
+        {
+          "executable_ast_sha256": "45966b6412e8d48c51037330b666dcaab89679d69b35fe13518a3a1e52b9bd46",
+          "name": "test_training_never_uses_target_windows_ending_at_or_after_fit"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "65a7eb6c140d1246044359bc0fe20859b4c83da19a011cd76e7d838b72ea097e",
+      "original_source_sha256": "01b72844db4648cf13127ad6a4c7784691527173dfe3a78b1b53fca89d6812d9",
+      "path": "tests/test_study_statistics.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "3926e3bb7dcd3dedefffa2d1b0ef4d9947ce7907805460daa4e42302cfe44371",
+          "name": "test_holm_adjustment_uses_sorted_cumulative_max_and_preserves_order"
+        },
+        {
+          "executable_ast_sha256": "4d90fbce33970a09b8229435a39f1fc93f10e4327217681156fe88a531dfb33e",
+          "name": "test_newey_west_hand_covariances_and_one_sided_tail"
+        },
+        {
+          "executable_ast_sha256": "7015ed038a1f08e4e02f969b015d45033c586309e04dbbc8d54b4b160126c1fc",
+          "name": "test_cw_includes_adjustment_while_dm_is_unadjusted"
+        },
+        {
+          "executable_ast_sha256": "49dde501b5f165e964ca6187234bedd45007adf0ce0e485a42ad3fd2493bd013",
+          "name": "test_stationary_bootstrap_preserves_calendar_and_is_repeatable"
+        },
+        {
+          "executable_ast_sha256": "2e7f34929120f5d97e7c10f53a8bbd7473d40c27b846ebff94e42ea8c8589e40",
+          "name": "test_qlike_uses_training_residual_variance_bias_correction"
+        },
+        {
+          "executable_ast_sha256": "a5bb91e44fafb868b7f042f5180ac8c14c1adb310870366fe1efb7ec8f762fbb",
+          "name": "test_auc_ties_brier_and_single_class_are_explicit"
+        },
+        {
+          "executable_ast_sha256": "1a3a66a3aa26d21a3f440aba30b605eb334f8056ce6219ee50a596b4c7695dfb",
+          "name": "test_h2_recomputes_sse_ratios_on_paired_draws"
+        },
+        {
+          "executable_ast_sha256": "bba617d955d23c22008005eb4eb17189976d45d547acb469b9a3048cc48cff5e",
+          "name": "test_lo_sharpe_hand_two_period_autocovariance"
+        },
+        {
+          "executable_ast_sha256": "d1f5652df35d868f00dfecc29f4d0a7179e970358ae4651bfc6e068496096b77",
+          "name": "test_dsr_zero_sharpe_and_failed_strategies_remain_in_count"
+        },
+        {
+          "executable_ast_sha256": "eea0bb129c955bf292b08e8fb8abb17c1f736f5675b3fd52c67e1887762a314c",
+          "name": "test_forecast_loss_table_uses_paired_baseline_and_degenerate_own_test"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "e9af77958df92f4fa180ab7d6e585f473ba7ca3108a1f2a4aca611bc3e5d01f5",
+      "original_source_sha256": "2fbb69a9210af85795be372351c2c91fa0fefb71c1f48976c24bd0ba3fdb8500",
+      "path": "tests/test_strategies.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "3a187979b22f1c06c58670d2c638708ba2fefe4d95d2e0487901e156e08244c3",
+          "name": "_base"
+        },
+        {
+          "executable_ast_sha256": "823c704356c2da7f4fa4c6ae14887b771880bafa04f50f966b1cf6113de5552b",
+          "name": "test_exact_scaled_book_drifts_and_old_book_earns_execution_day_return"
+        },
+        {
+          "executable_ast_sha256": "3650ff8cd967b036a1d8f76c03ace918ab54f9a6eec02cda57d9404da1a74c16",
+          "name": "test_fees_are_cash_deductions_on_the_actual_path_not_subtracted_return_fractions"
+        },
+        {
+          "executable_ast_sha256": "70e23349eb0936f28182328c1bf4d4b9464652fd0edaa3e6ec8fbe55b7cd6dc8",
+          "name": "test_offsetting_formation_and_scaling_trades_are_netted_per_name"
+        },
+        {
+          "executable_ast_sha256": "25868a63eab4913a73b94c34231826aa14b32b208c9097077faf4382e28069ae",
+          "name": "test_terminal_cash_and_negative_overlay_settlement"
+        },
+        {
+          "executable_ast_sha256": "7790ea80fc0de263981267fba2b82899e824f51301beaf3523c35fe1da78d78f",
+          "name": "test_model_fit_after_decision_and_missing_monthly_overlay_are_errors"
+        },
+        {
+          "executable_ast_sha256": "a6acf226d39b352f4a1e2571361eadd042f623ab8259d40f92acfa93aa6508bb",
+          "name": "test_future_book_and_ledger_values_do_not_change_earlier_holdings"
+        },
+        {
+          "executable_ast_sha256": "89dac484b8e7c646c140d974a24083da4d08959272ba04aaeceea3093adc1655",
+          "name": "test_monthly_calibration_return_formula_includes_previous_book_first_day"
+        },
+        {
+          "executable_ast_sha256": "694edf414dcb69c9333b27cd6cb216aae4de9d6680d913bb7e601d793c15dbb9",
+          "name": "_calibration_arrays"
+        },
+        {
+          "executable_ast_sha256": "4e915c2bb2b01bd1aeada210007c864698c1e9289ed83b64671e23db4435f885",
+          "name": "test_scale_calibration_hits_hand_calculated_target_and_reports_unattainable_cap"
+        },
+        {
+          "executable_ast_sha256": "d8ae6b982944c8cd332b391d6b532282c04cad9507eaf93ab1a29a840fd38418",
+          "name": "test_first_bracketed_crossing_survives_nonmonotone_clipped_volatility"
+        },
+        {
+          "executable_ast_sha256": "f4de33b6c6aef4c2eac372adac4e4471f99b14f147be23d4fab44a151fc068eb",
+          "name": "test_french_state_retains_saturdays_and_uses_next_month_published_deciles"
+        },
+        {
+          "executable_ast_sha256": "a89fb05910ff923efced52c6925d38734163d64b95d7fa70b7b552eee965dee9",
+          "name": "test_french_mean_fit_uses_strictly_completed_outcomes_only"
+        },
+        {
+          "executable_ast_sha256": "eafcaef24015c7051489cc1b0e997a54948eac32e0427f87d731d791d17660a8",
+          "name": "test_french_pairs_stop_at_origin_bound_and_preserve_completed_pairs"
+        },
+        {
+          "executable_ast_sha256": "ae6d954b69b8bb2a8c314fdf76476e69249b4c51bb73d3ad253ddf9c6e35e686",
+          "name": "test_dm_scale_cutoff_excludes_equal_and_future_target_ends_and_future_nav"
+        },
+        {
+          "executable_ast_sha256": "e805b1e48feec12498ba539771c4efe509703805871c726bfca4599e2a215d4a",
+          "name": "test_volatility_multiple_uses_21_day_risk_and_caps_zero_risk"
+        },
+        {
+          "executable_ast_sha256": "e43c4f7b498835f455aa5a0019a7319802a1d67474467bce461d2aaca72d0ebc",
+          "name": "test_break_even_replays_net_ledger_costs_within_fixed_search_only"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "ff67811214897132932aade1416a07361229508ecc0acf9889a35b25b6c80d96",
+      "identifier_substitutions": [
+        {
+          "original_text_sha256": "29c1b289e7522195b362e44f54e05470b69ad20540ab60a18a05e5bf6951f13d",
+          "public_text": "portfolio_dir"
+        }
+      ],
+      "original_source_sha256": "6dc0218706069ba989e4a2c894b376a1900d259647f436990ffd7837036d0d79",
+      "path": "tests/test_l2.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "94e2e7c4b13ed86207d864c4a6894a991cfb4664641be40871356297e0c8ca9b",
+          "name": "test_shape_and_rank_ties_have_hand_calculated_values"
+        },
+        {
+          "executable_ast_sha256": "e26c23024d3266dc88fd45c81636e6d7a2cc032a6edb57f14add70489e7c5369",
+          "name": "test_balancing_separates_missing_and_constant_stocks"
+        },
+        {
+          "executable_ast_sha256": "5205d9d9d7d28283844e8cc27910ee1ab6794f9378268133d63ecc44b60a6ae5",
+          "name": "monthly_panel"
+        },
+        {
+          "executable_ast_sha256": "8eee2458a0a6a85c12a438cb66b98a4e38dfa8c7b0e5bee7810105ccef478652",
+          "name": "_snapshots"
+        },
+        {
+          "executable_ast_sha256": "f67a2a8ded738e5e4de34b59818739b131ae88b9e496cac115480b45fd638b1a",
+          "name": "test_snapshots_use_current_raw_legs_and_previous_universe_intersection"
+        },
+        {
+          "executable_ast_sha256": "e0ec2a19f93e577c79096c25ca64f660842fbdccfc97d75193c554a5119bd126",
+          "name": "test_snapshot_audits_omissions_and_never_fills_missing_returns"
+        },
+        {
+          "executable_ast_sha256": "532b2fed6063294443e4fe70fad3d6a5219c9268a9e20efb3ea96a0d1b936c6d",
+          "name": "test_future_inputs_cannot_change_an_earlier_snapshot"
+        },
+        {
+          "executable_ast_sha256": "d34fef33546900e593f22c3f174b8b5cd9f53939bf675ea4d9f76749e066496d",
+          "name": "test_bounded_build_keeps_year_boundary_rank_history_and_terminal_credit"
+        },
+        {
+          "executable_ast_sha256": "e3181eb8c87a9e956bc0118d9bd22aa62a843dbe0de91048692c4437196b5da9",
+          "name": "test_builder_refuses_holdout_before_reading_inputs"
+        }
+      ],
+      "text_substitutions": [
+        {
+          "original_text_sha256": "b9596046fa3f53f87157e80dfaa31db168e5a24bd258cd6e46d9c3bdad050971",
+          "public_text": "derived/portfolios"
+        }
+      ]
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "2759a219e3fa1c47b7ea8df9000fed033972318346a51e2d8322388f4479b17a",
+      "original_source_sha256": "33290023c49dbd063b1e258d070ce6874295d5798098bf66556792cab4b93e9c",
+      "path": "tests/test_l2_identities.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "21aa2b46ed6c58f925d60c3f6aca728f6731b173c2aa6c83fd402b4fcb7e4d2d",
+          "name": "property_settings"
+        },
+        {
+          "executable_ast_sha256": "db4cf853ec630b04129d20fa435848de494209656cccba7f84378aa9404b6ffc",
+          "name": "finite_panel"
+        },
+        {
+          "executable_ast_sha256": "69a473b2d7d0a449882bc0213d619107daf795463adb91e2ec3dcfc7ee160c22",
+          "name": "test_binary_sign_entropy_is_determined_by_production_breadth"
+        },
+        {
+          "executable_ast_sha256": "2ffd7a00900110df0ff73da28bd5b60f81b27cc3e3d42bd2601d2d66ecebc46e",
+          "name": "test_median_relative_breadth_is_zero_for_distinct_observations"
+        },
+        {
+          "executable_ast_sha256": "5685919450c763452edceb1b42b8e3c564263b90860bda79333f9cf33cd47a9e",
+          "name": "test_balanced_window_dispersion_includes_dispersion_of_stock_means"
+        },
+        {
+          "executable_ast_sha256": "f9bb78bc335bcb61235feaefbbe50ab1c0b6728cc9331657c4bd4a0ccfd5c319",
+          "name": "test_average_correlation_identity_matches_the_independent_correlation_matrix"
+        },
+        {
+          "executable_ast_sha256": "7a95f047bf7b032d46c9acf2c2d89ddb4394ff5a9aba4fac311a6398d81ea37b",
+          "name": "test_cross_mean_covariance_is_the_average_cross_leg_correlation"
+        },
+        {
+          "executable_ast_sha256": "c63a1f0f6d90f96ec91f6bea1dc7b3e1bccb278d48496e3df0a7f3f4f769d9a3",
+          "name": "test_general_transport_gap_identity_permits_ties_and_unequal_marginal_scales"
+        },
+        {
+          "executable_ast_sha256": "4ece3966140670fb771e7a5e4d5360095ae618690fb4252fc6932d78956b17c0",
+          "name": "rank_permutations"
+        },
+        {
+          "executable_ast_sha256": "296c33a12a73e2dc804d3dedf81e8dd4fbed6a511d51b8df71c8d9a11aa178ae",
+          "name": "test_standardized_rank_transport_gap_is_twice_one_minus_spearman"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "07e0f5221f64a1e9ffc3de3a7c96ab16af8855afef1996d91f2c938b4be469bf",
+      "original_source_sha256": "24f98f6127640832a7ef8a36d9408c7db4019d108a34ad45fc6fdd8da2acc5bf",
+      "path": "tests/test_copula.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "c24fb6a0532100ed63c5f99b27df079fe748c9bcf86b189422c0dafca817a8e6",
+          "name": "test_cloud_uses_common_complete_rows_average_ties_and_n_plus_one"
+        },
+        {
+          "executable_ast_sha256": "3c6c46f5de625eae043231aa467442a9454069ba22facf9eabbb035745c81345",
+          "name": "test_beta_has_an_intercept_and_sigma_uses_population_window"
+        },
+        {
+          "executable_ast_sha256": "c946cc5c44661be8798d722d7059e6915e8817e38098bf882110add421aa55d7",
+          "name": "test_projection_grid_and_embedding_distance_have_hand_calculated_scaling"
+        },
+        {
+          "executable_ast_sha256": "e623ba95fcd2c42c4db3fe94f9a9569e5c6b834b9f9297a7a9f7f598fda4c843",
+          "name": "test_cm_is_spearman_and_q_contains_only_the_registered_21_new_terms"
+        },
+        {
+          "executable_ast_sha256": "22708dc17ad4566c010cb3b12b5ba57af71a3a6871d9e1dc021f6c22a2eb2e15",
+          "name": "test_centroid_alignment_uses_previous_labels_and_hand_mean_centers"
+        },
+        {
+          "executable_ast_sha256": "3e238ef04ae599ba0654d14307366e6edb00fdf6a1e8257c390d37e548822523",
+          "name": "test_dated_centroids_fit_unique_eligible_months_and_ignore_later_data"
+        },
+        {
+          "executable_ast_sha256": "b2eb910b4b82e413d19d8975a2654ee4e048b6283f8c95e235b6222975a384de",
+          "name": "test_separation_is_matched_size_and_descriptive_even_when_threshold_fails"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "2fcce53b432704d1e0e14681a4bb60b76428e00856e7e32c44296448809a2669",
+      "original_source_sha256": "4c9f11b3310e4c4f8bfe6737b5d3420749d76976dc3e97033ba91da6e35237d5",
+      "path": "tests/test_copula_identities.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "ba65287976e0f216b5b21ba41154c231262222cc8fe9eae6adeb53ae7bf00aa0",
+          "name": "test_rank_weighted_return_and_beta_equal_n_scale_population_covariance"
+        },
+        {
+          "executable_ast_sha256": "508e2c6c1cc3f2ce08baaba8884ba5b0ad3bcb0569892a0badb132e32bc2a4cc",
+          "name": "test_rank_weighted_stock_betas_equal_the_beta_of_the_raw_return_portfolio"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "709e07968f12f33e89174b6acc6b40623ac86e01efa009a94a451993f0f33906",
+      "identifier_substitutions": [
+        {
+          "original_text_sha256": "29c1b289e7522195b362e44f54e05470b69ad20540ab60a18a05e5bf6951f13d",
+          "public_text": "portfolio_dir"
+        }
+      ],
+      "original_source_sha256": "fd1a7d534afcf1727a51e2305e5983877aab2e38b0b27b07960e085d405c6a21",
+      "path": "tests/test_copula_build.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "236ab65f41a0eee861fcf628d43eb1b4095231b31c0daec6296534d571dbe218",
+          "name": "panel"
+        },
+        {
+          "executable_ast_sha256": "e7bd52d582cdccbaa69db978f4d84d4dee7105a0337765f5bd48f33d3f530da3",
+          "name": "snapshots"
+        },
+        {
+          "executable_ast_sha256": "6ce9dcd3aadb9f5232acffa3b76ef9412fc9ad00c4052670ed0c55b5bb108978",
+          "name": "test_clouds_use_current_month_and_one_complete_four_coordinate_subset"
+        },
+        {
+          "executable_ast_sha256": "b6b2e699a006765986295bf402ba408ea776b6e9fb471d00d6c7ae86e0a56864",
+          "name": "test_later_rows_cannot_change_an_earlier_cloud_embedding_or_cm"
+        },
+        {
+          "executable_ast_sha256": "010237bc7f552abfd9aacca5207cbfc934bd6f83483dc80fad5269f477898057",
+          "name": "test_builder_preserves_cross_year_inputs_and_validates_every_pinned_artifact"
+        },
+        {
+          "executable_ast_sha256": "30209d7a8235c2ff5bafd09b8774d77ab8ff8b342c14c8c3752f2f9bd12f03ae",
+          "name": "test_builder_rejects_actual_holdout_before_any_input_read"
+        }
+      ],
+      "text_substitutions": [
+        {
+          "original_text_sha256": "b9596046fa3f53f87157e80dfaa31db168e5a24bd258cd6e46d9c3bdad050971",
+          "public_text": "derived/portfolios"
+        }
+      ]
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "27e22fe45ff1cc757f9c0bd45c43774511afce6283a38ddd0d1923177a2f51ec",
+      "original_source_sha256": "c2c8583723647e036a5b7b43a1e6b4213d6baf54f54331f8667387efa906dec8",
+      "path": "tests/test_regimes.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "1d20317814b878c89edcb892f20b9825b49b8a82973c4f48897069ef67c5a814",
+          "name": "settings"
+        },
+        {
+          "executable_ast_sha256": "df7efa266784b8844525efc00c2bc4b5305a0d971925bb07f2b037f67cdfff74",
+          "name": "known_hmm"
+        },
+        {
+          "executable_ast_sha256": "072f75473ad35d78b28a4b7bbd0ed27a329d82ccccd47d86d48be122699b7484",
+          "name": "test_log_forward_and_emission_control_match_hand_bayes_updates"
+        },
+        {
+          "executable_ast_sha256": "cb3011abff4944252cf668db79cc9b24175fd1971f8da22b0a1a7538c2c4d403",
+          "name": "test_gaussian_log_density_matches_product_of_univariate_densities"
+        },
+        {
+          "executable_ast_sha256": "778680e777f41adb92b0ae4d406c6b1786c04276f5879552290873eb09008072",
+          "name": "test_pca_uses_population_training_moments_and_aligns_only_signs"
+        },
+        {
+          "executable_ast_sha256": "d69f5d21c51bc809bde38e86fb51ba6094ab0557c790ee6e7fdb5e58854e8d68",
+          "name": "test_restarts_select_training_likelihood_but_reject_iteration_limit"
+        },
+        {
+          "executable_ast_sha256": "7c3f4a015ef44dede3d2bb1ce28632d1dcfae2f01f28a354a085fc38410d946c",
+          "name": "test_probability_diagnostics_use_training_occupancy_and_geometric_duration"
+        },
+        {
+          "executable_ast_sha256": "6d84e44e00913f9d4feffb6b99b39220a75a0daac0ed6016f870f7358768c274",
+          "name": "daily_panel"
+        },
+        {
+          "executable_ast_sha256": "99bc38edf6b4bc471f8b356b3a9c96a23d86d47dc3f88d832531611cfba36689",
+          "name": "test_regime_transform_fits_completed_months_and_filters_warmup_only"
+        },
+        {
+          "executable_ast_sha256": "c00cc01d37b1b3441ea0a32d696fad771d223b607898da59ea82f25ac90dff11",
+          "name": "test_three_state_features_omit_only_last_state_and_preserve_input_order"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "223406b7bec400cb5734ff8d212f13468a92d76d735ca436e3dee9a1f7ce854b",
+      "original_source_sha256": "a2e93f469fce3ce5f9b3f8ae0efbdf4676a6a5d4a373567129964c8d0ffaea45",
+      "path": "tests/test_regimes_recovery.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "777ca94031ae2861383032112e0bc96bfe94594338cf103432456ab1ba162df1",
+          "name": "pytestmark"
+        },
+        {
+          "executable_ast_sha256": "762ef47a3d1bc16850e74fb3ad7bae73695b26d4e51ccbd2638992af53baf58d",
+          "name": "test_fixed_markov_fixture_recovers_states_and_filtering_beats_emissions"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "df2aea4dccb28a61447b2350be8af51f788b40c5323999655a1d3720f8031eb5",
+      "original_source_sha256": "8be00f90c8179c5259f4f5e9e031135bc6068f65641a82e6741b25bf02fa77e2",
+      "path": "tests/test_features.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "f20a85db80c74ec5d500642ea11b0a43fab33a7ac7baf9caf870a7df2f000eb1",
+          "name": "test_realized_variance_uses_squared_returns_without_demeaning_and_full_windows"
+        },
+        {
+          "executable_ast_sha256": "753c0ef31b594a6633066ac571e70253a3f8589a79ad373d50b4c6d3e5dc9e56",
+          "name": "test_beta_includes_intercept_and_uses_current_observation"
+        },
+        {
+          "executable_ast_sha256": "62e434dcbcb31da2c68d9ec92811dc9f17e565ab254f9bb1c4658512a1e8c65f",
+          "name": "test_book_risk_uses_fixed_signed_weights_missing_zero_and_weighted_coverage"
+        },
+        {
+          "executable_ast_sha256": "7768eeddc316ed71687a8ddd0791932207ce13c35fb0b10aeee9c1f856fb2d0c",
+          "name": "test_quantile_skewness_uses_registered_quantiles_and_rejects_constant_series"
+        },
+        {
+          "executable_ast_sha256": "8541cb6108bc814a87fae77cf6d3515fa8f72e4d64dd7a0c39538928ae3d8fca",
+          "name": "test_residual_correlation_removes_ff3_and_rf_and_requires_balanced_panel"
+        },
+        {
+          "executable_ast_sha256": "09693543adaaf635ad20a42fa5eacc3bf79fb360b204c592e2f466ad353881ff",
+          "name": "test_weekly_returns_do_not_include_partial_future_calendar_week"
+        },
+        {
+          "executable_ast_sha256": "3ba6c485d15a5c3acf159f87d1de7f651ac034c3a1674bd9c0f6ed15d4a6b7c5",
+          "name": "test_macro_features_forward_fill_observed_values_without_future_or_recession_input"
+        },
+        {
+          "executable_ast_sha256": "b4c2f6f5cd552db3ab0f56bdc828f2b4b69e104645b5e46b66f523bd2b68c5f6",
+          "name": "test_stock_panel_never_maps_noncalendar_prices_or_terminals_to_next_session"
+        },
+        {
+          "executable_ast_sha256": "b0fc4ae7707aab8fe41133571a296d528b1bc2df308d61ad1b2726ad4c8c43aa",
+          "name": "test_month_end_book_risk_uses_new_formation_before_execution_and_comom_last_full_week"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "935601c3fd60148c7906c8bc855f4bf0879266fea0d1be06427cf63f9c81ac2e",
+      "original_source_sha256": "aa6de65ecc42701f7318f7d24bcac32ecb5a55b13d8c4c4e98f977bdeac355e8",
+      "path": "tests/test_events.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "30b63b9eed778b8df5c71ed77f25c1d8ad89dc2fd60060d285634042b79c46d9",
+          "name": "DAY"
+        },
+        {
+          "executable_ast_sha256": "5b6c93348eb014f68e245ac9346a9ae604c47e6cfd8edd311c58a424dd10ba05",
+          "name": "SETTINGS"
+        },
+        {
+          "executable_ast_sha256": "57c6fd05b8a18854de7a850ed4e1ea6a1ad1023fd96e0bdcf7beeaa2e8e5dafd",
+          "name": "test_cash_and_stock_are_additive_and_override_generic_delisting"
+        },
+        {
+          "executable_ast_sha256": "f0ebe40afc3fb59030faa83a107301e3f3aefbab58acde69f2b8310f4e5ca2e5",
+          "name": "test_cash_election_is_not_added_to_stock_alternative"
+        },
+        {
+          "executable_ast_sha256": "5f51da042b36123d7549e4286dba011a88450be192757e337a649fc4d07bd11a",
+          "name": "test_stock_election_when_cash_is_absent"
+        },
+        {
+          "executable_ast_sha256": "e686a320b79fd3edecf631a60bdebdb57d2353d5bcb4131c0d7aef5411561ba3",
+          "name": "test_terms_take_precedence_over_election_and_bankruptcy"
+        },
+        {
+          "executable_ast_sha256": "90cff2ba58fbe527adbb9debf919f669d5fc2b357f4c6b1e0d95ae44aea50460",
+          "name": "test_missing_acquirer_price_zeroes_entire_return_and_records_exception"
+        },
+        {
+          "executable_ast_sha256": "fc6c17c5757e4556051c1bf63b55c276a54a216c50d46922ec578d2e1b6c4043",
+          "name": "test_invalid_cash_election_does_not_silently_choose_stock"
+        },
+        {
+          "executable_ast_sha256": "6e4cf5a8bfa97b3e157be3e74ca92f2bc92ab1895115ae0516803ae5bfa45123",
+          "name": "test_acquisition_without_terms_precedes_voluntary_and_generic_delisting"
+        },
+        {
+          "executable_ast_sha256": "5c6e54050a16ea3815be808032c1197763d6375a371dc02f68451eb59b62f047",
+          "name": "test_voluntary_delisting_precedes_performance"
+        },
+        {
+          "executable_ast_sha256": "bbf0d9dc52f1722c2ef133f48a8e1e514348ae609a3c7931fe97fa75a2140f54",
+          "name": "test_performance_delisting_return_and_proceeds"
+        },
+        {
+          "executable_ast_sha256": "cf2eb1e798d05074af760dfb44fb3815da3d47b438efc2df67e0e11e50370f3d",
+          "name": "test_unrelated_action_does_not_explain_the_end"
+        },
+        {
+          "executable_ast_sha256": "6d76d97c4fda73ddec8f14c69de91e95a574fbf05731682b70e1a9cda1ad7f44",
+          "name": "test_configured_sensitivity_is_applied_to_performance_returns"
+        },
+        {
+          "executable_ast_sha256": "8567fd24381edb8eb985c1708805150c1a4a2213d4dcdd057de4a94f549daff3",
+          "name": "test_sic_rolls_back_all_changes_latest_first_with_exact_date_boundary"
+        },
+        {
+          "executable_ast_sha256": "cfc0d2773f37cbd21a7d997be4c52560989fa36954f8952259ddc125fec11737",
+          "name": "test_missing_sic_to_row_is_audited_but_old_code_is_known"
+        },
+        {
+          "executable_ast_sha256": "8334a0e0349fca50375727ae79d547c3f5f92aad8430c4bf2ff4a046f82195ba",
+          "name": "test_missing_or_ambiguous_from_does_not_leak_current_sic_backwards"
+        },
+        {
+          "executable_ast_sha256": "c0c68cac971191186849529264ae6b5d55e29bb50c2085e5690e6bd8bd3ec5ea",
+          "name": "test_sic_chain_mismatch_is_reported_and_older_from_still_used"
+        },
+        {
+          "executable_ast_sha256": "1986d4b38ca1324e9cf3dbab061bc504610e9a671c5b163ec316d09ca03ca838",
+          "name": "test_older_sic_can_be_recovered_after_newer_missing_pair"
+        },
+        {
+          "executable_ast_sha256": "03a3b869d10adeda5d73fce4ccc4f911f86f62d202c11f05d25e175cae688d5b",
+          "name": "test_future_classification_change_with_complete_pair_preserves_past_sic"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "afc1192b8e3f1983907e73733c35c50fcca29e3ae0261e4816f2b6a22d63595b",
+      "original_source_sha256": "e9271390b87dd3ce939bc6d0b45b5a835ef37b1fa59f47ac4b49da70ae464463",
+      "path": "src/momenta/manifest.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "9b2b4296a77d3e03f112d1b0b4ecc1185f916f4a5a22a652d58cd27a11ea66f6",
+          "name": "_SECRET_KEY"
+        },
+        {
+          "executable_ast_sha256": "243493deeecb9c38ad3d4664bf33f90ae48e450458c3560d130ab2d75e111dbc",
+          "name": "_CORE_FIELDS"
+        },
+        {
+          "executable_ast_sha256": "736ff41eb3de81ffb8809ebec30400872cd757cce95c3ca07b9370ca22832c09",
+          "name": "IntegrityError"
+        },
+        {
+          "executable_ast_sha256": "f7674f3ae453eb9276ef10c3134e69fa2f8265068c87fefd3d25856275190648",
+          "name": "sha256_file"
+        },
+        {
+          "executable_ast_sha256": "f4a313f89e23ce57ea6a37dc52353cb871118e8f9851e0af6d0e4ab8167be8b8",
+          "name": "sanitize_url"
+        },
+        {
+          "executable_ast_sha256": "de9f2772bd89b61b4ebd77c675048ce50bae550ede1ff3839a51b6151eb8d56e",
+          "name": "_safe_metadata"
+        },
+        {
+          "executable_ast_sha256": "566c90edcf83a02a1c4a70baa716640b7a536b33cd9fd861562f40e91bbc40d2",
+          "name": "Manifest"
+        },
+        {
+          "executable_ast_sha256": "a337d2a3bfe21fc7fa9a63f5dbccdbc215446ab2c15c76d914aeb16b15e42b9d",
+          "name": "download"
+        },
+        {
+          "executable_ast_sha256": "3650ea332314818e382eb487b00833d7f753106f996904c849c588984f687b44",
+          "name": "provenance"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "64312ed8f8acc919426e2e2ee4b420feb9e07a8c595bae91387c9d16a485f004",
+      "original_source_sha256": "044cd467ff97f527df623366080219f17b13777d466a672706c53db4fab8bd1d",
+      "path": "src/momenta/reference_data.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "ad4526c2aa40b7ed78b3ac4da7983e5e1cdb8766e31d460c598d3432dcb3f048",
+          "name": "FRENCH_BASE"
+        },
+        {
+          "executable_ast_sha256": "10be18e948b36eeefdbee582537f9adec2938cc2682c7192260d4bfa378ef1ac",
+          "name": "FRENCH_FILES"
+        },
+        {
+          "executable_ast_sha256": "8a8816f45575efdb50b0d171fb6360145ee7ba470bc324c49923a0699948fc7c",
+          "name": "JKP_BASE"
+        },
+        {
+          "executable_ast_sha256": "6f50328ffb5988d68807d21ad251c9ae63bc230ccbcb39954960ba81b795b066",
+          "name": "JKP_FACTORS"
+        },
+        {
+          "executable_ast_sha256": "7470433700c27adc563026d1ab139f1caed174a80e159d878dc2a4c656aca7f9",
+          "name": "FRED_URL"
+        },
+        {
+          "executable_ast_sha256": "b2675ffaa410b0d41f606bf510a95775be5cdacc1cddad3322654b103f9a3ef9",
+          "name": "_csv_from_zip"
+        },
+        {
+          "executable_ast_sha256": "8b2cf06e01cbd272c90681be68ba78b4af5f05bb31ef515007561e013c4f98a8",
+          "name": "_french_date"
+        },
+        {
+          "executable_ast_sha256": "3f9a26728953f8d9c6962affb29bcd731a8892e171d262c3fdd23462c576060d",
+          "name": "_french_value"
+        },
+        {
+          "executable_ast_sha256": "7592376974302f1839ec1c5183a2b683282f738c1cec3d951a897deb8ca83d5f",
+          "name": "parse_french"
+        },
+        {
+          "executable_ast_sha256": "06e66be95020c8ef07949595edc939e6cc18c12dff516d2772237d8faf5a15e5",
+          "name": "parse_jkp"
+        },
+        {
+          "executable_ast_sha256": "fb3153f9a8117ddd6a1ed894cf1a155479495afce6ea099bc5e60683669f1268",
+          "name": "parse_fred"
+        },
+        {
+          "executable_ast_sha256": "0b2ffb98ab93ae44e4ffaf62071b16850782d4bb5602748e0158ce414480b903",
+          "name": "_annotate"
+        },
+        {
+          "executable_ast_sha256": "ccc8dc8d5264d0c9e694f8173e65f7c9f1665af7701695a012bdde02c1d68a6c",
+          "name": "pull_references"
+        },
+        {
+          "executable_ast_sha256": "2d3f4b9277c54d6b831e05745bf863ad63ef732dc93bc280a22868ceb0fceddc",
+          "name": "curate_references"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "716475d761eb8b9be4e13052f3330f65cabb2f03d9230c972cdddfcbddafd305",
+      "original_source_sha256": "d558ed65a7d47f7a567fdc9a4b8175e7fa75af4c1634d56106ce3674dba5ed4e",
+      "path": "src/momenta/data.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "70539349c3fe6050ad50bb748900621637ab312c6fbacb4513ab4d1cbf4df078",
+          "name": "extract_csv"
+        },
+        {
+          "executable_ast_sha256": "227134f1a254a12ae61d86ac5291f7562bcea98a63dc818c81c83cc4cc045cfc",
+          "name": "stage_years"
+        },
+        {
+          "executable_ast_sha256": "2833a17a6ae2ed6fbdf0eb849170b1d7f33b05efe3d76570d2399a70ae8774d7",
+          "name": "pull"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "728a1c49f769d5f2bc33720a0f76a6aa1c57a4f1a9ed24acdccc07b4c6beabe9",
+      "original_source_sha256": "68cc98428ff87f16739af6bf79e91871bb0e1e83cbe13bacd00cd9c274b11c65",
+      "path": "src/momenta/cap_repair.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "4547b94910f4ed9144afc6e0400c48c64df0eddcf432d2ac01279e34ec361ad5",
+          "name": "build_cap_repairs"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "26e7b9de136cb85db710e26bf80ba712002b035fa646a17dc57c01e6efef8225",
+      "original_source_sha256": "876e80db938136441f57a7eb297c1379de2af42971fbddcaa4aafd718dc70801",
+      "path": "src/momenta/universe.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "4cdf83a5aa2a92c82545165361d16737c0b5c2d7e376d760fd235690a8002a5d",
+          "name": "_build_sic_intervals"
+        },
+        {
+          "executable_ast_sha256": "731352537fdd194f47d1ed5265aee0157aee7c22413dac1d343a728be6258452",
+          "name": "build_universe"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "c3051bab6b73ef84adc2ef19aff2b2558667ab821000f3afdb3deb30043dd1a3",
+      "original_source_sha256": "8f68ad38ab2178cdc4169518650295e6e2492bbd43f28ccd87aa2c7d4ad123d4",
+      "path": "src/momenta/curate.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "384c4cf1ff1d535f3c65d5402989839c41131a05bb9262575ee820d22a12c3d9",
+          "name": "PRICE_FIELDS"
+        },
+        {
+          "executable_ast_sha256": "857a7deafe9879631bfe8c5cb0df3ae4e04895443b919238b18069fdc644937a",
+          "name": "save_query"
+        },
+        {
+          "executable_ast_sha256": "254ac21b0a18c48280eea6c129a77c11a6eae5f6193424516bd23ac099375403",
+          "name": "_view"
+        },
+        {
+          "executable_ast_sha256": "d6ae864816ab6302d1d23465d45c66b606f6e6aaab171de6521b0ed907724455",
+          "name": "_corrections"
+        },
+        {
+          "executable_ast_sha256": "f649b7f09abeb755d551e1367c341ed1f8d35b8b2b726b5b876b90ed50df139b",
+          "name": "_master_actions"
+        },
+        {
+          "executable_ast_sha256": "1f7563a9e4f869abde5ffdcc3837766fe34aec07c089e4a2249e1bedc62edc58",
+          "name": "_yearly_prices"
+        },
+        {
+          "executable_ast_sha256": "a7534382c329d377554debfcf9059362866d98ad0514dbb7a44a10b9e6c5c848",
+          "name": "_caps"
+        },
+        {
+          "executable_ast_sha256": "5d4931d44ff015711fd2d09c75c306d61285b1ec541d5b19aa7826927a7de23d",
+          "name": "_delistings"
+        },
+        {
+          "executable_ast_sha256": "f7ea94cf65228044e08129a8fa6a9a80dd848779387cea054114c5aabf02ddaa",
+          "name": "_monthly"
+        },
+        {
+          "executable_ast_sha256": "90225bf42e29549d4c9411490c1bade57313be258df157413e26384f25709d5c",
+          "name": "_flags"
+        },
+        {
+          "executable_ast_sha256": "eb9a2cde11c2b07de4d5383747c8511154c1c43b21524f8f7d87b79f56632be7",
+          "name": "curate"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "73e8afba9a5d74aa48cacbca128b5a827d1157b29913292248ab0b5b3c2179f0",
+      "original_source_sha256": "25b7b8e99de914b07a27ab231df80110bae983bbabe7df87a3c68445e7be2a1e",
+      "path": "src/momenta/checks.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "ab03ea2366bd4bb7f4be50bbf06cde7c01bfbc0499c27ccf663a5fb8752da24d",
+          "name": "EVENT_CLASSES"
+        },
+        {
+          "executable_ast_sha256": "56390084e60e861e3b7fa0fb004446dec71a4272016d9c408cd4188be0b62c9a",
+          "name": "_CURATED_TABLES"
+        },
+        {
+          "executable_ast_sha256": "0056c7f0f5ba9dd82ec8e4c184dbd438e50b59802cea3e1f5835b899e56f28e3",
+          "name": "rows"
+        },
+        {
+          "executable_ast_sha256": "208d91a0ddf6335d8fd4fd94c93ba9473383ce4a0f89d9e39652b5d047edb948",
+          "name": "write_table"
+        },
+        {
+          "executable_ast_sha256": "e00e9251f5fe31e61bcf77faa9c6767aa58ad43b16fe84024fd1db796867c66d",
+          "name": "_yearly_prices"
+        },
+        {
+          "executable_ast_sha256": "b045b6bbf649a12e4ae0ccfe99dd26f39f60caf14ecb6fabd629601e684ee999",
+          "name": "_yearly_caps"
+        },
+        {
+          "executable_ast_sha256": "04fbc8f19f1fd1b4025da9519f450efc63442540ae451cc28305c1c8b9c8af2c",
+          "name": "_availability"
+        },
+        {
+          "executable_ast_sha256": "7d2d47f6d8af92371e7c9310d9a69389faf1a96e25b246e53c5de597a3f5d698",
+          "name": "_coverage"
+        },
+        {
+          "executable_ast_sha256": "9ab486e1e99b528fc66ab0b85b6c35e546304a5a75b649b0771061fea3a38a8f",
+          "name": "_delisting_value"
+        },
+        {
+          "executable_ast_sha256": "021857b3bf3eecd7b97b55b93fe3bd3e8b664ee99355e776f48dd95e3b40e89d",
+          "name": "_cap_checks"
+        },
+        {
+          "executable_ast_sha256": "38a70cfc85bf26be1f86af9096b4e7802d69d6dba56d5826ca714ec87d11e067",
+          "name": "_observed_cap_checks"
+        },
+        {
+          "executable_ast_sha256": "f16e3d57815ffcc3f12c4690ac3943698a4b1c1785813a9a68d02ab893dcf727",
+          "name": "_cap_rank_checks"
+        },
+        {
+          "executable_ast_sha256": "f3b89b50ac4f5c78e4ca7aa059e54cd19ffe20fc7e6ab0f8f4be99702fac5d0e",
+          "name": "_cap_tables"
+        },
+        {
+          "executable_ast_sha256": "2c24920f7d6ff1b6008b638be59b14eac29c7616563605f757d15d4bac00c04d",
+          "name": "check"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "680ee35d76148a8b94079c1e13150b4971293179dc317053ef27202463aceb70",
+      "original_source_sha256": "946da5fdb7ab16506841c4a1b2902ad30bc47aa191e6ae0c14eb90b196d5a50b",
+      "path": "src/momenta/portfolios.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "53bfc0b1c38fd5e217b491ce70a9e243ec3514096731dfe95a16b3351d2f219c",
+          "name": "CONSTRUCTIONS"
+        },
+        {
+          "executable_ast_sha256": "81aea5ed1a1585d0c644695f2a81dbac79a2af436baf1733dee0c188e8ab8c89",
+          "name": "tail_weights"
+        },
+        {
+          "executable_ast_sha256": "67b3d99a6d71fcb9b594b8ddd9f1f4ec015607ebea0c620d30491e50796f876f",
+          "name": "form_portfolios"
+        },
+        {
+          "executable_ast_sha256": "6ffd4ac2b1589558b16661b8972de17961603becb3afdfc81dca6847ef25760c",
+          "name": "_year_panel"
+        },
+        {
+          "executable_ast_sha256": "549addb3bde43cbc98826a4dd1bfcb370bb1b2347d2c98224f6e6333560038db",
+          "name": "run_portfolios"
+        },
+        {
+          "executable_ast_sha256": "8ae3d2224a9caa6399d02a75da29eb63ce038916d3faab51b61681b0e88b7b95",
+          "name": "build"
+        }
+      ],
+      "text_substitutions": [
+        {
+          "original_text_sha256": "e40c4e31a6d31eb6f0239faea1109b7528076ec9271c84e65a8eb1da41fb3234",
+          "public_text": "Data checks must pass before building portfolios"
+        },
+        {
+          "original_text_sha256": "c749fbf68b210770502dc68f449559c98eeb72bb9680fd136959587cfc13b116",
+          "public_text": "Portfolio "
+        },
+        {
+          "original_text_sha256": "448b9ff48f9bd1c63b3a54dce780c4dd87885229bdc9c1d566e72c3441803f71",
+          "public_text": "Stale data checks ("
+        },
+        {
+          "original_text_sha256": "b9596046fa3f53f87157e80dfaa31db168e5a24bd258cd6e46d9c3bdad050971",
+          "public_text": "derived/portfolios"
+        }
+      ]
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "9799f6d56726ee96aef13feacb23610d45de1d4d6a1fbeea63a240c8cbf4e40e",
+      "original_source_sha256": "f4a8460c8179346687fa242047d02637b0b499fe79fb9a9eecaf98dfde08c71f",
+      "path": "src/momenta/experiments.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "f2a3591ae3fb412bed93820d9364243e683dade0d16e99cee246a1df3c5ea415",
+          "name": "_KINDS"
+        },
+        {
+          "executable_ast_sha256": "fd053cc9bf22d018813755e0ed650b6f8e9a253bb0a2827aa84e5298a2824d32",
+          "name": "_EXECUTION_KEYS"
+        },
+        {
+          "executable_ast_sha256": "99296be4bf728530fd646b8fac119fe687927799159a63287fc57fc9a7160712",
+          "name": "_SECRET"
+        },
+        {
+          "executable_ast_sha256": "7752b17d906a83a435799c6f03a106f8451181c0e84d6c937be4a60cc8a59c47",
+          "name": "_COLUMNS"
+        },
+        {
+          "executable_ast_sha256": "927180daa58f4598c70f66501d06ba6d235d39f592eb4fadf85ebbbe654317bd",
+          "name": "_json_value"
+        },
+        {
+          "executable_ast_sha256": "4f466f292a0dbcfbc4dcabbe2cc3b2bd7955da982e9fa18670cd72d87460e731",
+          "name": "_json"
+        },
+        {
+          "executable_ast_sha256": "b6d9f971819af2c2394dd0f8c71254fab2f941943662b23a3063d9f00c4d1713",
+          "name": "strategy_id"
+        },
+        {
+          "executable_ast_sha256": "45732c4db58198e6c3cea3721af27def042e68b1a42e9acd55c8cf0551a3d43d",
+          "name": "Trial"
+        },
+        {
+          "executable_ast_sha256": "a8aabb2a9460dbbc8f7157fc9ea65e73876197cd8010bf0e3b490a1576a65097",
+          "name": "read_trials"
+        },
+        {
+          "executable_ast_sha256": "b806a60c921f7a6e4162aa88361a6847f1a410d2ed1926435bcd64d03c46d379",
+          "name": "_write_row"
+        },
+        {
+          "executable_ast_sha256": "34f09329778823e930065fec14f84c6bbdfd443d72f65cb14c8617d052b2529c",
+          "name": "trial"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "c98813686a53f7ac32742cc86bc183b2f4e856ffd70b7ce3807e59d14afd0bfe",
+      "original_source_sha256": "adc348f497165bc7a922085e8daf539dff1f9a3cb7b3bc3fb1785077540e2652",
+      "path": "src/momenta/size_check.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "451f9493faea1d663fee81a0c6fe25d02dc487b578c03c9de90ddcfd48c1aa9b",
+          "name": "ar1_predictors"
+        },
+        {
+          "executable_ast_sha256": "26b79f2e8aa33f76a8d39f6802f1ee03aacadad8518428f12f4e915b0a54990d",
+          "name": "training_persistence"
+        },
+        {
+          "executable_ast_sha256": "e475a7bba5abff35cfa9cf16f7d318a0f5b65857305a3726ee4a03dbac1a7777",
+          "name": "_preserve_placebos"
+        },
+        {
+          "executable_ast_sha256": "7831c16ab75a37f78123aad703e830b63a29e37d9bbfd2f0aca5b1b11fda7faa",
+          "name": "_save"
+        },
+        {
+          "executable_ast_sha256": "9c6df3b9c5be7d9c050e5df97158328ea362166d6105f182d8d35f443787b526",
+          "name": "_excluded_placebo_refits"
+        },
+        {
+          "executable_ast_sha256": "2bca9e6cb829641ee187f1c8a12b0f62c4e1905dbfcc245933388e02e797beb9",
+          "name": "run_size_check"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "52b53b9f5f71264b4e865e0f94b2b9eb858cb386bccdac3c431d7b74500a6501",
+      "original_source_sha256": "7f451eb415395185a39670bbcbca0897c6c01b3dbba8f3b0dd764f41546b8a82",
+      "path": "src/momenta/bdp.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "a675b0cf14ac86ddc2f3a3591ffc2ce002b486c04f88f57f7c72c25719ebd744",
+          "name": "BDPFit"
+        },
+        {
+          "executable_ast_sha256": "301271e0105aa774dcf3a1a7bea065ee8ce553be0f59a33a8c75d2ecf6e0f9e1",
+          "name": "log_density"
+        },
+        {
+          "executable_ast_sha256": "53241a2a3a26e9cc41abf6bc2066f07f635ab3e161e360f81742021b20af9ee8",
+          "name": "likelihood_score"
+        },
+        {
+          "executable_ast_sha256": "f3176d3f42afd8152ed5ccb80e176f18feefa6731975b6a7df9d250a80cfda96",
+          "name": "published_information"
+        },
+        {
+          "executable_ast_sha256": "58413500cce32051fc59d8c969358fc2271a3ffa87e9194d493f4eb900bf5918",
+          "name": "filter_step"
+        },
+        {
+          "executable_ast_sha256": "6391506f9863f8d017f445b0973f52dfc6e10211a61c66b7f700fcdf4d2b25d4",
+          "name": "conditional_moments"
+        },
+        {
+          "executable_ast_sha256": "de3cd20c54f20ae038e298a3fc5a6df43c5354c006b66edfd1c8b420cb0beaad",
+          "name": "skew_t_draw"
+        },
+        {
+          "executable_ast_sha256": "c5d48febc518233db51bd5622781e007478773199edf03f6182590a22204bd55",
+          "name": "_filter"
+        },
+        {
+          "executable_ast_sha256": "44181cdc6cd2301f3814ad9d6d8a0a15ae105578554ff8d27170dda385ebddc7",
+          "name": "fit_bdp"
+        },
+        {
+          "executable_ast_sha256": "7d35fea77899d7f6960c7970e33a26e61daea929a0d5ea9e46cce9c2a0dbde50",
+          "name": "filter_bdp"
+        },
+        {
+          "executable_ast_sha256": "1edfa9c9a65a96431825a906f3c7efcd7051d5e86a52fec5fefbaa6441a21275",
+          "name": "simulate_reference"
+        },
+        {
+          "executable_ast_sha256": "634faf57f5468ccaec47a355021a2b76ca3a81951db78b3530a2dcbe2ce2b43a",
+          "name": "recovery_attempt"
+        },
+        {
+          "executable_ast_sha256": "c6edc47a8b7aa2b52835048860e9bbb14f79d39f4cfbfdb052dc08ce2e9a9cde",
+          "name": "apply_bdp_features"
+        },
+        {
+          "executable_ast_sha256": "dbc4befe024cbd020fea2c0df463f6ed051178c0f34cc257a1a2108d2dd0e102",
+          "name": "forecast_moments"
+        },
+        {
+          "executable_ast_sha256": "d64da7c77ff7f32abe0aa7f2f209fa8b9eb7485abe37d4b638da8a71a10da782",
+          "name": "BDPRecoveryFailure"
+        },
+        {
+          "executable_ast_sha256": "103a07558b3edfc19c93f92ceb682466bfe74ceba56c14807b5f8e57ee815db3",
+          "name": "ensure_bdp_decision"
+        }
+      ],
+      "text_substitutions": [
+        {
+          "original_text_sha256": "d6e81b5d96e2bf77ed3b379ef3bedc86562900b876cfad94fe674e89d6d81812",
+          "public_text": "derived/baseline"
+        }
+      ]
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "f756f5a022aa45bdb9ab0a813faadee5662c1ccece6b0eb1ee7a655444fb88d2",
+      "original_source_sha256": "3c6c6bd3927bb14b9d66c520225cfec76403b3eb5ce703653d81f421f4fcd3ed",
+      "path": "src/momenta/bdp_horizon.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "e4ade308c807aaae17044dfcf627db6a41814eb7218b8418558c233531b0cfb0",
+          "name": "holding_moments"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "4deb0eedc29d7c75547d81bb4680fffce8560c8a4e6026a4ff79d510090a84b8",
+      "original_source_sha256": "4f70017593b238efd780462cd006af548af103ab1c45d7a056234c08e2dde812",
+      "path": "src/momenta/freeze.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "dce6e87dbbe13f3f72ee50f3914dccbb49b3b2dd45b1e121156a2b93c8df7ba2",
+          "name": "_ROOT_INPUTS"
+        },
+        {
+          "executable_ast_sha256": "6ebf6446465efe972c0e143e16c01d5021edc80dc0721961dd9fdece70cb0c02",
+          "name": "_REGISTRIES"
+        },
+        {
+          "executable_ast_sha256": "2c6099b2da3cb59c901e45157b1957e19f5ac6aefb72215376d5593435930d0a",
+          "name": "_in_scope"
+        },
+        {
+          "executable_ast_sha256": "85f470d15baa580d34de00831faa09cf44a27c6317e4d3ce4eeb4bc0cfaf898d",
+          "name": "source_config_files"
+        },
+        {
+          "executable_ast_sha256": "3b056008228597c1ddf50b7a61db04c1caf097b0acc27464d7ab0cd96ab512ec",
+          "name": "_content_hash"
+        },
+        {
+          "executable_ast_sha256": "6533043224bb38aa6f3defeb745a584528e6e5fc38c0f9fdcd84b9c8190aef95",
+          "name": "source_config_hash"
+        },
+        {
+          "executable_ast_sha256": "a744ceabe36447a9903113ab731c4186b6d99e4bcd284dcee889dfa9d6d740cc",
+          "name": "_toml_value"
+        },
+        {
+          "executable_ast_sha256": "e9e75a515aad2c556adea90caa30346b0d76e9c344edb74f7e885f6c39c45ff8",
+          "name": "write_toml"
+        },
+        {
+          "executable_ast_sha256": "98f0aa398ae58ab2a5ae85f627c2394baaaeb7ff8815bb48325439d81fd995b9",
+          "name": "_settings"
+        },
+        {
+          "executable_ast_sha256": "6031b9556597d703cd589e44767e5c991735ba8c870853af185171369286081f",
+          "name": "_validate_registry"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "86470bb35ef584882ea4323cc60231abdf219b7d7b58a7ff94cee9e9f8a773db",
+      "original_source_sha256": "de663729b945984763fbac2c33734cefe913538bcb5688123b05f6241efd6feb",
+      "path": "src/momenta/holdout.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "e80e9ac258ed6e99abe6d6cc99ad81e15250844e59bfe9e0102b640e45b08325",
+          "name": "origin_bounds"
+        },
+        {
+          "executable_ast_sha256": "0f42a2aff453ee68edadf3e7a75d738149c2f13864da9393fdc0c6f196914178",
+          "name": "_json"
+        },
+        {
+          "executable_ast_sha256": "f2f6ef48fe8896bd3a609dfd7517d76cf5ea26931198e93e0c0211cd8c98fa4a",
+          "name": "_stage_settings"
+        },
+        {
+          "executable_ast_sha256": "c2ffba8c9ad149f084443ee76345fb66794cc77131660cffe280816a2f8380dd",
+          "name": "_artifact_hashes"
+        },
+        {
+          "executable_ast_sha256": "630eb1e7559e44c93d155a0923ebbe675ef36e8b87409de5333749f7953c5bca",
+          "name": "_record_reproduction"
+        }
+      ],
+      "text_substitutions": [
+        {
+          "original_text_sha256": "b9596046fa3f53f87157e80dfaa31db168e5a24bd258cd6e46d9c3bdad050971",
+          "public_text": "derived/portfolios"
+        },
+        {
+          "original_text_sha256": "d6e81b5d96e2bf77ed3b379ef3bedc86562900b876cfad94fe674e89d6d81812",
+          "public_text": "derived/baseline"
+        },
+        {
+          "original_text_sha256": "05b2edd7c8ca4608238f8a149767c5ecf38ad1dd660acfdfb653a62309edbe26",
+          "public_text": "derived/l2"
+        },
+        {
+          "original_text_sha256": "a527d66cdcb910e595177fca592f0a32220217a6318d0c56c48f0b75e89d67b6",
+          "public_text": "derived/final"
+        }
+      ]
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "e0dbce908fdd2245c0d10006b502a028052fd2fa7e9595d56e344ab6096e09ca",
+      "original_source_sha256": "b49c0fa49fe4bfdbf4ed19696ffb4aebc386465752bc82fbeafac31a51c62368",
+      "path": "src/momenta/portfolio_report.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "e014eb9c7f6bbd5ece016b589af2d476ed9e2f7e5d6aa916e6709d4a26017c8a",
+          "name": "_BUILD_FILES"
+        },
+        {
+          "executable_ast_sha256": "3fa40231891e972fcdddda398115a93760d6d8c8724cc340db2abea5f4b7ca31",
+          "name": "_REFERENCE_FILES"
+        },
+        {
+          "executable_ast_sha256": "d4a21c9d4e1c78b681bfa3b08f41950b58a51bddb2d701975b4938b080065133",
+          "name": "_M2_SOURCE_FILES"
+        },
+        {
+          "executable_ast_sha256": "c49e82bdbc5073f1850b0b1e3f6d90ad6322ed1dd5d6ace180dfe550e100be1d",
+          "name": "code_hash"
+        },
+        {
+          "executable_ast_sha256": "00c0831b1397ee51ef124309d2ddb17bc2241f47c6402de4c8403f2deb33d002",
+          "name": "return_summary"
+        },
+        {
+          "executable_ast_sha256": "a2c3c14e0bb2817d3020e7c621e4591410e8d3d1f3177ff0ef3bef3c31b32568",
+          "name": "_dated_returns"
+        },
+        {
+          "executable_ast_sha256": "2746982b3347281087aa80c7cf29d813e09b94ecbd0f3ed48479dcefef9b513a",
+          "name": "reconcile"
+        },
+        {
+          "executable_ast_sha256": "769cad9f584426e0409166c2757937a46b626b83c321fe2853c78b8744cad008",
+          "name": "reconciliation_tables"
+        },
+        {
+          "executable_ast_sha256": "63a8bb0542bbec8403f792cfdb315026078fcc8ff35e385d3864d670f91b0218",
+          "name": "bsc_returns"
+        },
+        {
+          "executable_ast_sha256": "b7364c2445b33f40ce4dc706e2a8b262547fc35a33b4103ebbc58c5685dd8e68",
+          "name": "_write_json"
+        },
+        {
+          "executable_ast_sha256": "6e61547df9115db5ddcd4ad2c93e92909039fdf73c9bff5f7b39458144ecc0ad",
+          "name": "_write_table"
+        },
+        {
+          "executable_ast_sha256": "208637bab4e982997cbfd8b0d0882ed0983cc413420c049363c682373910d57f",
+          "name": "_figure"
+        },
+        {
+          "executable_ast_sha256": "a50d42acac0086a90818a934d1a68904509b52385c5e7bd86b0d2cf199b5e85b",
+          "name": "_series_tables"
+        },
+        {
+          "executable_ast_sha256": "d90be4d37ab2cfbfa1c8c38b756542bae21adad6324a1c3b02f7c9b4ae103270",
+          "name": "evaluate_portfolios"
+        },
+        {
+          "executable_ast_sha256": "fcfd1e2ad1c95698703fce2712cf8050a82c892ff79b7a38067ac9acf1cab3e4",
+          "name": "load_summary"
+        }
+      ],
+      "text_substitutions": [
+        {
+          "original_text_sha256": "d9f7f035bfe80eac70a0109c083e2ab86448b53ef23e322360b82c3fa3f730cb",
+          "public_text": " changed); rerun momenta portfolios"
+        },
+        {
+          "original_text_sha256": "077c72a99a8a0e96d1a4f462460dc02ef17fb40c3d6c5c9122e59ad66871d5cf",
+          "public_text": "Duplicate portfolio keys: "
+        },
+        {
+          "original_text_sha256": "f11fd9c175b07cef30c512741e3d81fc46d0abb8f4389617522c1fe8e189777f",
+          "public_text": "Stale portfolio results ("
+        },
+        {
+          "original_text_sha256": "a239583a383130832654048c387c6cc212d8d0ff131e32339bee925584fa95b5",
+          "public_text": "Stale portfolio results (code changed); rerun momenta portfolios"
+        },
+        {
+          "original_text_sha256": "29c1b289e7522195b362e44f54e05470b69ad20540ab60a18a05e5bf6951f13d",
+          "public_text": "portfolios"
+        }
+      ]
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "b75e171acc088a0603a472df4a9b3300e79c1bd3aa0e65073b2f9231e500a309",
+      "original_source_sha256": "6d31093bdfd1fbfea4e826f1f5d9981867dcbf4e2f6eade80084643d9f03192d",
+      "path": "tests/test_manifest.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "1c6b3be402cac150c1b05f3e8dc5a279329682b544cd943140c8f480f8fc77fc",
+          "name": "test_changed_pinned_bytes_fail_instead_of_silently_becoming_a_new_vintage"
+        },
+        {
+          "executable_ast_sha256": "d5a310891f9bdc4cb508df472a2de83c6d1b1ee8eb3bcdb9542f5c0688bdacd1",
+          "name": "test_pinned_download_reuses_original_bytes_and_time_without_network"
+        },
+        {
+          "executable_ast_sha256": "bad304f2555f3dd0ace8e1865f0ad66d64267375620985935f19143763a038f9",
+          "name": "test_interrupted_refresh_preserves_the_existing_snapshot"
+        },
+        {
+          "executable_ast_sha256": "2f46db2e4c385833816adcaa162c3169507ebbbe0583510bc699a704ba3a042d",
+          "name": "test_saved_source_urls_keep_public_query_parameters_and_omit_credentials"
+        },
+        {
+          "executable_ast_sha256": "9b53dac6884ed6c4620226a43198b76804679d178b1d7e6012b5b4c7e4c8b595",
+          "name": "test_manifest_retains_canonical_source_when_download_redirects"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "37e6f3e323550e7f7b3df37546995f2d973e0cab04aa3d17f3b6e5e07be8dc15",
+      "original_source_sha256": "ab5c80cfc9a112e0362909da7652d7444a4dd3b6e9a03ffa732f7f06b2d23f61",
+      "path": "tests/test_reference_data.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "8527a89539264e518eccb69563f3817adb2db44c0c3cff60aff59a341571d143",
+          "name": "test_french_factors_percent_sentinels_and_month_end"
+        },
+        {
+          "executable_ast_sha256": "c5a0c85da64338a35a06d63f318492e88e8a48b9fda77b294d216100cb078aa0",
+          "name": "test_french_does_not_mix_equal_and_value_weighted_sections"
+        },
+        {
+          "executable_ast_sha256": "f59b7f2d5b597b4d1f9fd1e39ef581db4e06b8c288fdb18f4459c359176d323a",
+          "name": "test_french_breakpoints_leave_count_unscaled"
+        },
+        {
+          "executable_ast_sha256": "09716d5207a0aca8a262bd59af58b909418104bb02758b32cf0a551755f69541",
+          "name": "test_french_rejects_duplicate_dates_and_missing_vintage"
+        },
+        {
+          "executable_ast_sha256": "9851edaf06937765bab27c5727d329889853bfe3d0038a4c3da7ffc4456f8f50",
+          "name": "test_jkp_preserves_decimal_return_and_checks_factor_definition"
+        },
+        {
+          "executable_ast_sha256": "eed36310e962547293aaa5ce53e1326a2ad02cbd85e0816392cc901835152366",
+          "name": "test_fred_preserves_levels_and_missing_days_and_rejects_truncation"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "ff88c0b52ccb245da82c34cc31faa186f6d3972d0d10d2ffccbd444f370d66f7",
+      "original_source_sha256": "30c78af0d63d0180bf4c1957128c693d3ff91469f0254935968e9736191b2faa",
+      "path": "tests/test_curate.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "21a2e5fae7d8cc21ea203f8161d54de773d74cbf7a0e64b71db165f99e293fd3",
+          "name": "_correction_file"
+        },
+        {
+          "executable_ast_sha256": "3d4a9a013161724359778a010e90cee4e42aa8e69377eb8effb44086c3057190",
+          "name": "price_panel"
+        },
+        {
+          "executable_ast_sha256": "8498de3c76be883beb33704845fed13c5fbc9d638b3a8d988aa2a548fb76c418",
+          "name": "test_corrected_cross_year_total_return_and_missing_calendar_day"
+        },
+        {
+          "executable_ast_sha256": "042b6f7fdbdbaccbc2647d81381e5ef37d49a6aa0c1243e594e1650cacb3bc52",
+          "name": "test_correction_cannot_apply_to_a_different_pinned_old_value"
+        },
+        {
+          "executable_ast_sha256": "50196de695ed87f3612a055dcb7955492964dbc0b7dfd883b9b96547d2a50a6c",
+          "name": "test_correction_without_evidence_is_rejected"
+        },
+        {
+          "executable_ast_sha256": "56da1cb3bc439cbdcf812398a6e225f8e7a7d30cc3231a98b567074277b3819a",
+          "name": "test_invalid_correction_cannot_create_nonfinite_price_or_negative_volume"
+        },
+        {
+          "executable_ast_sha256": "76f290fb23a94eb12e490890ed77330dca2173bcda6dd58a835ba75e3d7be836",
+          "name": "monthly_panel"
+        },
+        {
+          "executable_ast_sha256": "1f30ea42d211399a0de542d8a464622a50e92a1f812a024e35937eb234e65f3d",
+          "name": "test_monthly_compounds_returns_and_credits_terminal_once"
+        },
+        {
+          "executable_ast_sha256": "20fc0112442d2d42c22d581d3911a24fd32c213f591795674b02cce8be49b346",
+          "name": "test_terminal_month_with_a_missing_precredit_return_stays_missing"
+        },
+        {
+          "executable_ast_sha256": "069722f980621e0d52d10be2cb0c7ef2747146cfc95b94c0bd3a2372c84c795a",
+          "name": "test_partial_calendar_month_is_not_a_valid_formation_month"
+        },
+        {
+          "executable_ast_sha256": "e2af517a562fc9bc6e499ee745659d682587cb9a6ad5129b8c97ac28750a8b34",
+          "name": "test_flags_cross_year_reversal_action_suppression_and_prices_are_unchanged"
+        },
+        {
+          "executable_ast_sha256": "2d6797fa4ca1d851bdbe014a4935390ff513a4406dc40fd318b4cb4e41116a4e",
+          "name": "test_empty_formation_ends_prior_flag_membership_and_cutoff_limits_report"
+        },
+        {
+          "executable_ast_sha256": "154e4d5bc405b0ac1675d16edeb33a53fee3a56d5101b7b747afdb578df9a43d",
+          "name": "test_sep_mapping_retains_reused_suffix_and_distinct_private_acquirer_names"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "6445b1a588916acbf43bc09560c3e3b4b752a0caa6a06cca22ad716f13227fe2",
+      "original_source_sha256": "3d256e93fb8897b7c661389ed51f9848f929211cbffdc34c1a4ce7039429c8c2",
+      "path": "tests/test_universe.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "593cd89fe438dc3b393bdb53fd330a64abdcbdbcb478292dab4e9692ab1a259e",
+          "name": "panel"
+        },
+        {
+          "executable_ast_sha256": "7486c803b0209048610f3a3eb4a651355137f5e46fbc2efc21d5cc5e52156163",
+          "name": "test_as_of_membership_ties_cap_staleness_skip_month_and_res_count"
+        },
+        {
+          "executable_ast_sha256": "7fa69b26e5d81cac59af4958e389d8ca60a3217e663545be9b7502403da64653",
+          "name": "test_shortfall_keeps_every_qualifying_name_and_reports_res_subset"
+        },
+        {
+          "executable_ast_sha256": "97a4c1e64229eac2e490cbcf76e7a960dc60bdd64a4a07172041d013b0ea9485",
+          "name": "test_future_prices_returns_caps_and_paired_sic_change_cannot_change_membership"
+        },
+        {
+          "executable_ast_sha256": "0e1e6ab7c72e093b26ec48b80ad90f6aa381932e66676489bef0f482c534a0d8",
+          "name": "test_midmonth_through_does_not_create_a_false_month_end"
+        },
+        {
+          "executable_ast_sha256": "d6fed4a1ff931c1ee0b2e96baf3b7427a9596a0f916a63bfa24f3068e5f15888",
+          "name": "test_sic_audit_counts_unknown_master_and_effective_pairs"
+        },
+        {
+          "executable_ast_sha256": "594f0302261a06ad0c0a02679e51c9428d3c69a0ce20a160f5340905318c3869",
+          "name": "test_pinned_repairs_accept_only_approved_missing_caps_and_can_be_disabled"
+        },
+        {
+          "executable_ast_sha256": "75e2b07e46118e43618f300e8d6cd126b8a5f36cffa5ef20e58a38946f9fe165",
+          "name": "test_observed_turnover_floor_is_inclusive_and_never_falls_back_to_repair"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "c5a0017f145fb43b7ab28e03eb5d2cf25b243d4ca701e779fa1e224899a3a601",
+      "original_source_sha256": "fde501bfbca7f074a182a2ad4321dfb094dd509c744100c359a1c5bf9bc36459",
+      "path": "tests/test_cap_repair.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "a44a9683a8c500159be732752cb40d7bec4b2f7a4b30320f016f05e1db1f50cb",
+          "name": "repair_panel"
+        },
+        {
+          "executable_ast_sha256": "39aaed2e3b425c1da221e50d1bd61c11567df09c3c450984caffd25e00a202ed",
+          "name": "test_backfill_across_two_for_one_split_uses_split_adjusted_close"
+        },
+        {
+          "executable_ast_sha256": "2beeac2ecaed89ad8e3450adb881b4ff5b2735ec8db6c2e019a1393c9b0d5834",
+          "name": "test_carry_forward_wins_when_later_cap_also_exists"
+        },
+        {
+          "executable_ast_sha256": "a1684f6cd49fe5480e0a66e105d238d62202fa6f0d116302f80d7f550295d160",
+          "name": "test_turnover_guard_accepts_both_limits_and_rejects_just_outside"
+        },
+        {
+          "executable_ast_sha256": "ac4647098cf882561d9bc1a0219dab5dde8ec99526bc3ffd6f76a908ecfb665b",
+          "name": "test_252_day_boundary_and_unrepairable_rows"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "50e34a549d920ed6246735f1888590d9562cc2f7dce6c32bec58d2b0305114a3",
+      "original_source_sha256": "8f30df3f153def86fe56c9c7cbb61383574acfba39cbea4037ab36c9ecce03d9",
+      "path": "tests/test_checks.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "7dbaf85659e94b78787732e77a21ecb5a3bd092d4b52e5f074d1afec4761346f",
+          "name": "test_price_audit_detects_same_date_duplicates_and_invalid_price"
+        },
+        {
+          "executable_ast_sha256": "e29854b7d5e44a18c140410d1cfbb03e230c57cf13c8a6869914ea5fd4b288f1",
+          "name": "test_terminal_exposure_uses_strictly_previous_formation_and_zero_event_months"
+        },
+        {
+          "executable_ast_sha256": "d847e831a200df2fddbde953abc08920bfd253bebbe2e2097a8e96c4d65f621a",
+          "name": "test_yearly_coverage_counts_distinct_members_and_dates_events_by_last_trade"
+        },
+        {
+          "executable_ast_sha256": "a59bedde0b51336861749bd611a9a7e0ed617092cfb2bfeb6c2721c22c257389",
+          "name": "cap_audit_data"
+        },
+        {
+          "executable_ast_sha256": "ce9d2126678d3026a84e884c862356bdaee887b4c8098c063720ec85d4964aea",
+          "name": "test_cap_audit_accepts_consistent_repairs_and_reports_all_candidate_coverage"
+        },
+        {
+          "executable_ast_sha256": "9dc9b6db0ac59af18890589e083f0a046d7974bb3d2f6947d27e090f7d6ddc50",
+          "name": "test_high_dollar_volume_gate_has_inclusive_five_name_boundary"
+        },
+        {
+          "executable_ast_sha256": "911a746eb04d472124810f2d409a6654e13a445755308458cdffd9f54a54663e",
+          "name": "test_cap_audit_rejects_corrupt_terms_selection_and_summary"
+        },
+        {
+          "executable_ast_sha256": "30693065f28857ccd0215600867d230a93a0041f71ee09d1f93bd2423464437b",
+          "name": "test_accepted_repair_turnover_floor_is_inclusive"
+        },
+        {
+          "executable_ast_sha256": "0866958c158734822315686dc6947d2af4febe7fe52b5c82fd21c700044d7fe4",
+          "name": "test_observed_exceptions_preserve_floor_boundary_and_invalid_reason"
+        },
+        {
+          "executable_ast_sha256": "eb570e6bfa62bdaca5d9c3da166118e87cda76cfe579be3e7a2a540dac878aa7",
+          "name": "test_unusable_observed_caps_are_neither_selected_nor_repaired"
+        },
+        {
+          "executable_ast_sha256": "c7797611663b4e229fe98a78319e834166880d91e086ad36a752e7ded8dc20fe",
+          "name": "test_rank_audit_reports_distinct_largest_companies_and_all_months"
+        },
+        {
+          "executable_ast_sha256": "84cdf813c2ccb48fd70db2cf9c464474b154af82837a46fb69a6ccd19d9f4cda",
+          "name": "test_dollar_volume_gates_have_inclusive_rank_boundaries"
+        },
+        {
+          "executable_ast_sha256": "0ace2cf7686806802d2a3387cf2cbf488997622b1fdf5a01c27be1ac28849f3e",
+          "name": "test_cap_ratio_does_not_gate_dollar_volume_sanity"
+        },
+        {
+          "executable_ast_sha256": "59166183c7e63c5a26637bda2669428d16c2021cec427ba03ebf4811bbbfa289",
+          "name": "test_top10_gate_includes_rank_ten_and_excludes_rank_eleven"
+        },
+        {
+          "executable_ast_sha256": "3945332d14536a871a473500d85dad069aec46e52d559bb31bfcc368fd1fe87e",
+          "name": "test_invalid_top10_dollar_volume_ranks_cannot_pass_by_aggregate_null_omission"
+        },
+        {
+          "executable_ast_sha256": "dc6231daef1bd599bd1bf360011dc6dbd18cf4f28a331b0e2ef085ccb67a85f3",
+          "name": "test_rank_audit_fails_missing_duplicate_or_invalid_top_ranks"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "49d43f34fdcc8faa6ac620005f9064f2ab9bd5e73025b57e1f791ed749a564ef",
+      "original_source_sha256": "ea4177cafc7bb263149e24d8e6e1a06f67d057f07c1ee62def4a2cb8c0d697c4",
+      "path": "tests/test_portfolios.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "698f279ef7f64098d95cfd5689610bf2a96bd32663981c7a8de7de4851662ad3",
+          "name": "test_full_universe_cap_percentile_is_shared_by_res_and_raw_control"
+        },
+        {
+          "executable_ast_sha256": "fd55ac7ea68ce6881b67d2f27fda8b3298ebeb1c5ad0cfe97c18b3e8f84290a4",
+          "name": "test_equal_signal_values_share_the_upper_ecdf_bin"
+        },
+        {
+          "executable_ast_sha256": "0f18d274ceb2613f33ed8f82ce3b5e68148c23ba9ce34a27f741f2c0851ef36d",
+          "name": "_inputs"
+        },
+        {
+          "executable_ast_sha256": "c1951f3ccf1626a21b54ef9355db00c37090461e740a2d4ff74205c52f5946fa",
+          "name": "_weights"
+        },
+        {
+          "executable_ast_sha256": "95f0802f45f6f784269b30b2e7312fd980d1cca0defb2255a22a48a1a7e0eebf",
+          "name": "test_first_holding_day_earns_previous_book_before_execution"
+        },
+        {
+          "executable_ast_sha256": "eef093f82f851fc3510a19b1dfb6eb754ef412c588e0b79aac7a3285887570fb",
+          "name": "test_terminal_credit_renormalizes_academic_but_book_holds_cash"
+        },
+        {
+          "executable_ast_sha256": "bda925da8e4999b51e21c0366a4f9b3ce1ebd6abda8dc324166736abc1d0bb3a",
+          "name": "test_terminal_target_on_execution_day_stays_in_cash_without_reallocation"
+        },
+        {
+          "executable_ast_sha256": "7c0751e00c721a1f925da2d80c0630f024b75bb208534cd60509a0eddfd36550",
+          "name": "test_missing_return_on_held_day_fails_loudly"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "8f254f2012a26173c0b64892218c754d0e987f5f0c06018dd8213316bea02064",
+      "original_source_sha256": "7957818b84245e7a540d55bd9bc02bed411043650e81484e86558cc3fe6ca78f",
+      "path": "tests/test_portfolio_report.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "b458d379694bbcec5828e4043f3ba8adb2c9698dcedf6a2c4fced575950cc2ce",
+          "name": "replication"
+        },
+        {
+          "executable_ast_sha256": "36b699f844aecd8ea7694f9d95f50924520512de9f2e1ddc7632a5205a6632fc",
+          "name": "test_monthly_summary_annualization_and_zero_cost_sharpe"
+        },
+        {
+          "executable_ast_sha256": "75ae7ded4bf466c33682faa69340460c6e0668bd06c7b6af7187c5ee016ae646",
+          "name": "test_drawdown_includes_initial_wealth_and_recovery"
+        },
+        {
+          "executable_ast_sha256": "58f45c48965c4f6603ec06e6630542cdb42f58c286e98144d50eb50b351abbfa",
+          "name": "test_constant_or_empty_returns_have_no_defined_sharpe"
+        },
+        {
+          "executable_ast_sha256": "b06741145c5dad730d5d2325f451df9fde8be2a4d80c435ec852906f99cc66b6",
+          "name": "test_reconciliation_matches_calendar_months_and_only_common_finite_dates"
+        },
+        {
+          "executable_ast_sha256": "c4236bc94ca5d51d6e6f77e5c437a9b548ee047fde2c9c6c31439e52dc612b85",
+          "name": "test_reconciliation_never_excuses_below_floor"
+        },
+        {
+          "executable_ast_sha256": "5f6cedd466758564612ebdc97aea341cdde77b5ab363540fce2b833a5df0b50a",
+          "name": "test_monthly_matching_refuses_duplicate_months"
+        },
+        {
+          "executable_ast_sha256": "5409769cf2901da15aeb74ac5db8fe176057bb098bce6f3a5af57a6403160aa6",
+          "name": "test_res_gate_uses_holding_cutoff_and_preserves_all_months"
+        },
+        {
+          "executable_ast_sha256": "11125dd7966b70934374d28107db1be9b6ff6627ef9ec7f0ab18c6ffb0b64ba2",
+          "name": "test_m2_hash_ignores_unrelated_modules_but_detects_economic_changes"
+        },
+        {
+          "executable_ast_sha256": "52065977893338e6336c4f83e654a597b4baaae42279da9b49e20dddcb2d0ac6",
+          "name": "_bsc_daily"
+        },
+        {
+          "executable_ast_sha256": "0614e40435a322f322a311d55eb91523d859e220771e5a2e4e8788c585793eb3",
+          "name": "test_bsc_prior_month_timing_full_window_and_monthly_returns"
+        },
+        {
+          "executable_ast_sha256": "0988712c2f9adf853ec73f8b24b64210116f0c6e507489b22e14ff4d64615815",
+          "name": "test_bsc_zero_variance_caps_weight_and_never_subtracts_rf"
+        },
+        {
+          "executable_ast_sha256": "e4bf92f2178a290a7783adaafad7eb255fb56aa9b4258aa7715c52477e4b69ba",
+          "name": "test_bsc_missing_return_does_not_reach_further_back"
+        },
+        {
+          "executable_ast_sha256": "e9f310b04cd586c5f4e72cf55cb6646115ee5d3b0cee439d9e01e751ac58c9ec",
+          "name": "evaluated"
+        },
+        {
+          "executable_ast_sha256": "cdef397eb31ffb50e6be6ff4c693afcb65673a2fe930b30a8c0c03a31ac940e9",
+          "name": "test_m2_report_refuses_stale_inputs_or_code"
+        }
+      ],
+      "text_substitutions": [
+        {
+          "original_text_sha256": "85bf1cdebbc66a8026944d62bce1abaca22c67775607cda3d5ae6fb3dbdd06e2",
+          "public_text": "Stale portfolio results"
+        },
+        {
+          "original_text_sha256": "29c1b289e7522195b362e44f54e05470b69ad20540ab60a18a05e5bf6951f13d",
+          "public_text": "portfolios"
+        }
+      ]
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "85b31f21ddbf78cc0b1d6650e06a50f785e3de00b9218d6e8875253d6da5c3eb",
+      "original_source_sha256": "19f07298a9a884718c5354b22efddf12ba55764834c85632b7800f6485afc94b",
+      "path": "tests/test_experiments.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "5c7bf37618f33a4b461aeba039729a067a63f2abe6736c2250f3e9ee3b2bc6bc",
+          "name": "setup_log"
+        },
+        {
+          "executable_ast_sha256": "2661e9ec502f065b600cb04ab5ac6899c40bc96f89093909e1b16b4a807cb8c3",
+          "name": "test_identity_ignores_execution_sample_and_key_order"
+        },
+        {
+          "executable_ast_sha256": "d81c819bd8ee9a357108a023a7dfd6c0a33ae3cd67f1af6cd7e611d5f087c6a4",
+          "name": "test_failure_preserves_running_row_partial_metrics_and_does_not_leak"
+        },
+        {
+          "executable_ast_sha256": "dad0def89c90a098d7c93b880d67f1ab61a5736e8d8f691b9b232f5714a3b019",
+          "name": "test_nested_attempts_and_repeated_specifications_preserve_history"
+        },
+        {
+          "executable_ast_sha256": "0e2cd0ab44ca05d8c934d479fea9406cd69c59df084725870f45b8ae92f64d83",
+          "name": "test_invalid_or_credential_specifications_are_rejected"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "517162bbfbd3043f23d3e976e4155966760ed46fa151aae9df5b546999df606f",
+      "original_source_sha256": "ab7c70cd1fe6fc1f73ef75ecd94038dd6d188982fa25bfa8d3bc69cbcb48ff2b",
+      "path": "tests/test_size_check.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "ffde82ff1c5e8885cb8cec8e1ee13933134dba1e51a88b54a4a9cedcd88daa5f",
+          "name": "fixture"
+        },
+        {
+          "executable_ast_sha256": "a99acb3ca11b36101b4adf685481c011ff853a25d443378025cf82808d992eac",
+          "name": "test_ar1_has_registered_persistence_and_independent_columns"
+        },
+        {
+          "executable_ast_sha256": "f3de715526c740ee8cba0698957ac1503ad5d1c184f8e98fe57b729b6825977e",
+          "name": "test_persistence_uses_only_completed_first_refit_training"
+        },
+        {
+          "executable_ast_sha256": "73a30e0e097f3c0e238d4e194b16c670fda254b158c9fff24f880aa17e27d7d5",
+          "name": "test_structural_transform_preserves_placebo_values_and_order"
+        },
+        {
+          "executable_ast_sha256": "0ea6b35c75b47cf4986cdb24e527e04d7b383c23b92d5a1142c17f1995cf124b",
+          "name": "test_orchestration_caches_baseline_and_saves_every_attempt"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "765ad08c819ec8862d61651410c04e94403c80db26234fa271b2cf3eb2e30df5",
+      "original_source_sha256": "b756e7695acd970ad941064a257933e13a4858498b4e92cbad56fe6c388643c2",
+      "path": "tests/test_bdp.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "e0f68fbf67837a6207a1bb44b409ad35509e8230b6bb293642e14cf576532284",
+          "name": "test_symmetric_density_is_student_t_and_information_normalization_is_explicit"
+        },
+        {
+          "executable_ast_sha256": "32901e410a94abe7b113c5c46f91a3e2ebfe6c9ec9e9b1d8f01bb9c883c109cc",
+          "name": "test_likelihood_scores_equal_independent_finite_differences"
+        },
+        {
+          "executable_ast_sha256": "fd9b8995e0e4188525014e007c8ec242052dd260d653c89a7aec4e0deafab4f3",
+          "name": "test_density_integral_and_moments_match_closed_form"
+        },
+        {
+          "executable_ast_sha256": "f855d3c15b543fd41f5ebfd1a87c5270a2fc6dcdeeb24fd981a90e1e151ac20a",
+          "name": "test_draw_has_correct_half_t_side_weights_and_scales"
+        },
+        {
+          "executable_ast_sha256": "fa81cd7df3f213081d751854e47faf0dc6a0c9f4e24957aedad59d787de9e82e",
+          "name": "test_published_update_hand_fixture_and_post_close_timing"
+        },
+        {
+          "executable_ast_sha256": "d15f4fa6b62e229cfc92ed07f8895850cdefda53e45a15124a67c412e712c643",
+          "name": "test_horizon_moments_compound_percentage_point_draws_and_count_negative_wealth"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "1bbdee997931c822ad9fab1c08c05ad1266b9f882c3ca279dc3295ea912ace5c",
+      "original_source_sha256": "30f3c1bb367c019b79f93f57c7486b4bdeb65281f001d2599a1a2a08ddd577bc",
+      "path": "tests/test_bdp_horizon.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "d98052ba1645e5090fc9d0c5bca1ac3bb98403fcf16cbd70ef1f72f5ee2ae1c1",
+          "name": "test_execution_day_updates_the_state_but_does_not_earn_a_return"
+        },
+        {
+          "executable_ast_sha256": "198dcaa2a10ef91b0560096c3418eb38c89049a554750bec7aeda7067802559a",
+          "name": "test_sample_variance_and_negative_wealth_are_measured_only_on_earned_days"
+        },
+        {
+          "executable_ast_sha256": "fce498158f66035848766cefca8c3c95aabd04b538c85d621667493f9e436702",
+          "name": "test_zero_lag_reproduces_the_existing_seeded_next_day_horizon_exactly"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "7c68d27a06da4e832c53d64d19681836c8b868e750c2d638d6b4b92501ba333a",
+      "original_source_sha256": "0fc7eb342670a4bb49e039c8af1622ed13ff62a05e08cbef9fa5ed538ace6e46",
+      "path": "tests/test_holdout_guard.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "767467f93bd50763feaf96e2b4b6fef087e5a7108a0ccaa3ff870f2111769147",
+          "name": "test_toml_writer_preserves_dates_escaping_and_numeric_types"
+        },
+        {
+          "executable_ast_sha256": "e867fba17e89ca148bfe954f9398092f2499bce61d26c6c212d8cf7d147a4aa6",
+          "name": "test_month_end_bounds_need_the_whole_lagged_target_window"
+        },
+        {
+          "executable_ast_sha256": "24bbca6a51060494cad5dcc1a7a00254404bb6664e22bc2c7894a546a8ef621a",
+          "name": "test_reproduction_preserves_originals_and_fails_on_any_numeric_difference"
+        }
+      ],
+      "text_substitutions": []
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "0622e3d681272cac0e2f3a4ba0635fdf784af3b29041d077796a8747f2ff6cb6",
+      "original_source_sha256": "30da33abfdbf432a5c749caa67e264de92f64fc8f5077765dc40fbf32f3d99f8",
+      "path": "tests/test_pinned_data.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "777ca94031ae2861383032112e0bc96bfe94594338cf103432456ab1ba162df1",
+          "name": "pytestmark"
+        },
+        {
+          "executable_ast_sha256": "64d84a082720ee0ecd4a1830a255c6f30ddd4d5a466dc077053408d15d7a5561",
+          "name": "test_pinned_universe_ignores_future_prices_caps_returns_and_terminal_actions"
+        }
+      ],
+      "text_substitutions": [
+        {
+          "original_text_sha256": "01d29399e4a364e17b290f310476536a35b81f423e5ac5be270ac7ded493dd05",
+          "public_text": "Pinned curation is absent: "
+        },
+        {
+          "original_text_sha256": "bc84a5a4e1e0ec7ca8c34b9db77d8c1fa15909e62bab6653daedb236156a1633",
+          "public_text": "Pinned universe lacks 2000-11-30; complete the curation first"
+        }
+      ]
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "fa596f9acd132e6019f3d0c2c18d3b0645631297b15a0d650c67b2993371108a",
+      "original_source_sha256": "7f9c37922df65d29f3308cc21cd41a8c765a2d77b5b213e958521e9a53c2c715",
+      "path": "tests/test_pinned_portfolios.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "777ca94031ae2861383032112e0bc96bfe94594338cf103432456ab1ba162df1",
+          "name": "pytestmark"
+        },
+        {
+          "executable_ast_sha256": "1265675517441621e3a79aaf216705049b5bcfe0bdf3514936322a8227ffe6aa",
+          "name": "test_pinned_signals_weights_and_book_ignore_future_observations"
+        }
+      ],
+      "text_substitutions": [
+        {
+          "original_text_sha256": "01d29399e4a364e17b290f310476536a35b81f423e5ac5be270ac7ded493dd05",
+          "public_text": "Pinned curation is absent: "
+        }
+      ]
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "b936293c79688ae20b42f0eb3845e29dafa6842b707d0d437c482138d5909839",
+      "identifier_substitutions": [
+        {
+          "original_text_sha256": "29c1b289e7522195b362e44f54e05470b69ad20540ab60a18a05e5bf6951f13d",
+          "public_text": "portfolio_dir"
+        }
+      ],
+      "original_source_sha256": "54d9501032405af0a6454653799faf4e0783c2d471ef6a946c5ae99d84fc5dec",
+      "path": "tests/test_pinned_features.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "777ca94031ae2861383032112e0bc96bfe94594338cf103432456ab1ba162df1",
+          "name": "pytestmark"
+        },
+        {
+          "executable_ast_sha256": "a855da1ac4d504eee651f601f11d68c5fc89c3579d9744e4e10b87c25a49136e",
+          "name": "test_pinned_features_ignore_future_stock_book_factor_signal_weight_and_macro_data"
+        }
+      ],
+      "text_substitutions": [
+        {
+          "original_text_sha256": "1c2c704008d3ccbc9354c6c35ace1b8fbb500469a62eb830aa39f87e72d7f746",
+          "public_text": "Pinned curation and portfolio artifacts are absent"
+        },
+        {
+          "original_text_sha256": "b9596046fa3f53f87157e80dfaa31db168e5a24bd258cd6e46d9c3bdad050971",
+          "public_text": "derived/portfolios"
+        }
+      ]
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "cb7e50ffcd8dd28f26495a06426c145d614dfd3cd2c0cffd7bfaa498e6d3ce87",
+      "identifier_substitutions": [
+        {
+          "original_text_sha256": "29c1b289e7522195b362e44f54e05470b69ad20540ab60a18a05e5bf6951f13d",
+          "public_text": "portfolio_dir"
+        }
+      ],
+      "original_source_sha256": "dc81e2922f4a6da46fe8525948827eab389c28542386b3b5cfc917b797d35e6e",
+      "path": "tests/test_pinned_l2.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "777ca94031ae2861383032112e0bc96bfe94594338cf103432456ab1ba162df1",
+          "name": "pytestmark"
+        },
+        {
+          "executable_ast_sha256": "b8a4c0c7cf37980a928b48d46b5a277f4cf3ed8a7886763a9bea162a854749cc",
+          "name": "test_pinned_l2_ignores_later_stock_signal_universe_weight_and_economic_month_data"
+        }
+      ],
+      "text_substitutions": [
+        {
+          "original_text_sha256": "18a4395936965d9fbad66bfa13c8fc8fc8aa5e6395e16f17b41fb6bc67b4ecf0",
+          "public_text": "Pinned curation and portfolio inputs are absent"
+        },
+        {
+          "original_text_sha256": "b9596046fa3f53f87157e80dfaa31db168e5a24bd258cd6e46d9c3bdad050971",
+          "public_text": "derived/portfolios"
+        }
+      ]
+    },
+    {
+      "executable_ast_equivalent": true,
+      "exported_source_sha256": "4fef24db1bcbba175c8d048f2e2765d3d8f74bd0e17ec74c73e7ec44dad309dc",
+      "identifier_substitutions": [
+        {
+          "original_text_sha256": "29c1b289e7522195b362e44f54e05470b69ad20540ab60a18a05e5bf6951f13d",
+          "public_text": "portfolio_dir"
+        }
+      ],
+      "original_source_sha256": "8fccd9049230d3aa3986afb115e009289fd3ec66673e2e9ae0f8fcd6f7d3a74f",
+      "path": "tests/test_copula_pinned.py",
+      "selected_symbols": [
+        {
+          "executable_ast_sha256": "777ca94031ae2861383032112e0bc96bfe94594338cf103432456ab1ba162df1",
+          "name": "pytestmark"
+        },
+        {
+          "executable_ast_sha256": "06c52a5c2458a9b28d96dc8b91957df067717f8d1f8c7e4e83b86a959283d45a",
+          "name": "test_pinned_copula_ignores_later_stock_market_signal_universe_and_economic_month_data"
+        }
+      ],
+      "text_substitutions": [
+        {
+          "original_text_sha256": "18a4395936965d9fbad66bfa13c8fc8fc8aa5e6395e16f17b41fb6bc67b4ecf0",
+          "public_text": "Pinned curation and portfolio inputs are absent"
+        },
+        {
+          "original_text_sha256": "b9596046fa3f53f87157e80dfaa31db168e5a24bd258cd6e46d9c3bdad050971",
+          "public_text": "derived/portfolios"
+        }
+      ]
+    }
+  ],
+  "configuration": [
+    {
+      "exported_source_sha256": "dedcd9742b612a00ee6c8303b34579a2b653486f66b90a1e2234fed1a646fe1b",
+      "kind": "frozen_configuration",
+      "method": "Exact TOML key and string-value substitutions, rewritten by the original deterministic freeze writer",
+      "original_source_sha256": "ba2180e14167fec450849f1162373401ef60df955996b4aa01c391b526723578",
+      "path": "config/frozen.toml",
+      "text_substitutions": [
+        {
+          "kind": "key",
+          "original_text_sha256": "b5f2031eb62e37c6d38287b38f83afeaed2665f0424eb3c29c1a38a596a13d57",
+          "public_text": "l3"
+        },
+        {
+          "kind": "value",
+          "original_text_sha256": "7f62c978e9dc1ef05220df580989ec887c94594d21f89d18e3b01fd268490a6a",
+          "public_text": "data"
+        },
+        {
+          "kind": "value",
+          "original_text_sha256": "24f28e50a71ff04a6ff44d945db7dbcea49a4d07b54762796295c34ca94d3fa8",
+          "public_text": "French uses NYSE decile breakpoints over a broader universe. Published French D10\u2212D1 and JKP ret_12_1 correlate at only 0.837."
+        },
+        {
+          "kind": "value",
+          "original_text_sha256": "860d9541f02ab43e71a8dfd8dbbf42416c0db9bf8eb0eaa8ac2b3d9386e91d29",
+          "public_text": "Full 36-month windows exclude the truncated 2000 formations. The 2001 start was adopted after the all-months correlation of 0.799 fell below the 0.80 floor. A later audit found no implementation error, but the gap is not fully explained."
+        },
+        {
+          "kind": "value",
+          "original_text_sha256": "7a5b2e2f2b18a600c86998c1883c18273e468eb246ef2d24039cdbd0bc9add32",
+          "public_text": "derived/final/frozen_trials/c77412c3a1607b6af3e7e3bdd9e2abf7651564bad85c89a6870367287de684b7.csv"
+        },
+        {
+          "kind": "value",
+          "original_text_sha256": "1b9a91bb10eed7c7d867f03a73ef58d71d534212583ae9ecbb271d417798d026",
+          "public_text": "model-freeze"
+        }
+      ],
+      "verification": "The writer reproduces the original bytes, and reversing every substitution restores them exactly"
+    },
+    {
+      "exported_source_sha256": "ffe2b03816cc34f11a03a07970cab3213612cd526ad3c9c6e20b171bdac2b0ae",
+      "fields": [
+        "first_month",
+        "last_month",
+        "distinct_trading_ids",
+        "trading_ids",
+        "monthly_sharpes"
+      ],
+      "kind": "recorded_design_population",
+      "method": "Selected fields of the recorded design-period strategy population",
+      "original_population_fingerprint": "4faefda479c2b60acf74abbb9d926d8f20ca9b35e70ac4e2f682b549adefda27",
+      "original_source_sha256": "efec0040c616417c316e7b4a35369415972afae2e2d47657752b401362c65fe9",
+      "path": "config/design_trial_population.json"
+    }
+  ],
+  "method": "Explicit top-level AST allowlist; comments, docstrings and imports adapted",
+  "methodology": "METHODOLOGY.md",
+  "origin_source_commit": "20627607e5b0fc5975e65907ada48b3e965413bb",
+  "schema_version": 3,
+  "scope": "Selected numerical methods, feature builders, data and portfolio pipeline, experiment logging and freeze utilities, with independent data-free tests; the published frozen configuration and recorded design population",
+  "verification": "Every selected executable AST is identical after removing docstrings and normalizing the explicitly recorded text and identifier substitutions"
+}

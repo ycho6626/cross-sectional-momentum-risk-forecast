@@ -1,0 +1,3 @@
+k,replications,cw_undefined,cw_rejection_rate,cw_descriptive,dm_undefined,dm_rejection_rate,dm_descriptive,complete
+4,200,0,0.195,True,0,0.045,False,True
+10,200,0,0.255,True,0,0.015,False,True

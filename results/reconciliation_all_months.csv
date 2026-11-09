@@ -1,0 +1,2 @@
+comparison,series,construction,frequency,reference,observations,first_date,last_date,correlation,required_correlation,minimum_explained,strict_pass,pass,status,explanation
+res_monthly_all_months,RES,tercile_capped_vw,monthly,jkp/resff3_12_1_monthly,312,2000-01-31,2025-12-31,0.7992468571727187,0.85,0.8,False,,DESCRIPTIVE,Includes startup months with truncated calendar windows; not a gate.
